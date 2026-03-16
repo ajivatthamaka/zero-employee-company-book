@@ -10,6 +10,12 @@ What if you never had to hire anyone?
 
 This book shows founders how to build and run companies using AI agents as their entire workforce. No employees. No payroll. No HR. One founder, an org chart full of AI agents, and an open-source platform called [Paperclip](https://paperclip.ing) to orchestrate it all.
 
+## Praise
+
+<!-- Add blurbs here as they come in -->
+
+> *Your blurb could be here.* Want to submit one? [Open an issue](../../issues/new?title=Book+blurb&body=Your+name%2C+title%2C+and+a+1-2+sentence+quote.) or email anthony@175g.com.
+
 ## Table of Contents
 
 ### Part 1: Why
@@ -45,6 +51,15 @@ This book shows founders how to build and run companies using AI agents as their
 | 11 | [You Are Not Optional](PART-4-WHAT-IF/11-you-are-not-optional.md) | The human element |
 | 12 | [48 Hours](PART-4-WHAT-IF/12-48-hours.md) | Your first two days |
 | 13 | [Don't Hire Anyone](PART-4-WHAT-IF/13-afterword.md) | Afterword |
+
+## Contributing
+
+Found a typo? Have a suggestion? Want to submit a blurb?
+
+- **Edits & fixes:** [Submit a pull request](../../pulls)
+- **Ideas & feedback:** [Open an issue](../../issues)
+- **Blurbs:** [Open an issue](../../issues/new?title=Book+blurb&body=Your+name%2C+title%2C+and+a+1-2+sentence+quote.) or email anthony@175g.com
+- **Everything else:** anthony@175g.com
 
 ## About
 
