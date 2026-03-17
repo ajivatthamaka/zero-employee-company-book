@@ -1,140 +1,140 @@
-# Chapter 7: Open Your Terminal
+# Chương 7: Mở Terminal
 
-> "The way to get started is to quit talking and begin doing."
+> "Cách để bắt đầu là ngừng nói chuyện và bắt đầu làm."
 > — Walt Disney
 
-Close your other tabs. Open your terminal. In 30 minutes you will have your first AI company running.
+Đóng các tab khác của bạn. Mở terminal của bạn. Trong 30 phút bạn sẽ có công ty AI đầu tiên của mình đang chạy.
 
-Not a demo. Not a thought experiment. Running, with agents, tasks, and a dashboard you can watch in real time.
+Không phải bản demo. Không phải thí nghiệm tư duy. Đang chạy, với agent, nhiệm vụ và dashboard bạn có thể xem theo thời gian thực.
 
-## What You Need
+## Những Gì Bạn Cần
 
-Two things:
+Hai điều:
 
-**Node.js (version 18 or higher).** Check by typing:
+**Node.js (phiên bản 18 hoặc cao hơn).** Kiểm tra bằng cách gõ:
 
 ```
 node --version
 ```
 
-If you see 18, 20, or higher, move on. If not, install the latest LTS version from nodejs.org. Two minutes.
+Nếu bạn thấy 18, 20, hoặc cao hơn, hãy tiếp tục. Nếu không, hãy cài đặt phiên bản LTS mới nhất từ nodejs.org. Hai phút.
 
-**A terminal.** On macOS: Terminal or iTerm2. On Windows: PowerShell or Windows Terminal. On Linux: whatever you already use. If you can type a command and press Enter, you have every skill this chapter requires.
+**Một terminal.** Trên macOS: Terminal hoặc iTerm2. Trên Windows: PowerShell hoặc Windows Terminal. Trên Linux: bất cứ thứ gì bạn đã sử dụng. Nếu bạn có thể gõ một lệnh và nhấn Enter, bạn có mọi kỹ năng mà chương này yêu cầu.
 
-No Docker. No cloud accounts. No API keys. No credit card.
+Không Docker. Không tài khoản đám mây. Không API key. Không thẻ tín dụng.
 
-## Step 1: Install Paperclip
+## Bước 1: Cài Đặt Paperclip
 
 ```
 npx paperclipai onboard --yes
 ```
 
-One command. It downloads Paperclip, sets up an embedded Postgres database, creates the directory structure, and launches the platform. The `--yes` flag accepts defaults, exactly right for a first run.
+Một lệnh. Nó tải xuống Paperclip, thiết lập cơ sở dữ liệu Postgres nhúng, tạo cấu trúc thư mục và khởi chạy nền tảng. Cờ `--yes` chấp nhận các mặc định, hoàn toàn đúng cho lần chạy đầu tiên.
 
-Setup takes one to three minutes depending on your connection. When it finishes, you see a local URL, usually `http://localhost:3000`.
+Thiết lập mất một đến ba phút tùy thuộc vào kết nối của bạn. Khi hoàn tất, bạn thấy một URL cục bộ, thường là `http://localhost:3000`.
 
-Open it. That is your Paperclip dashboard, the operating system for your AI company.
+Mở nó. Đó là dashboard Paperclip của bạn, hệ điều hành cho công ty AI của bạn.
 
-## Step 2: Name Your Company
+## Bước 2: Đặt Tên Công Ty Của Bạn
 
-The dashboard prompts you to create a company. Three fields matter:
+Dashboard nhắc bạn tạo một công ty. Ba trường quan trọng:
 
-**Name.** Pick something real. "Acme Content" works, but "Adams Media Group" works better. You will treat it differently when it carries a name you would put on a business card.
+**Tên.** Chọn điều gì đó thực sự. "Acme Content" hoạt động, nhưng "Adams Media Group" hoạt động tốt hơn. Bạn sẽ coi trọng nó hơn khi nó mang tên mà bạn sẽ đặt trên danh thiếp.
 
-**Description.** One or two sentences. "Produces SEO-optimized blog content for the personal finance niche" beats "testing AI stuff." Specificity shapes how you design agents and assign work.
+**Mô tả.** Một hoặc hai câu. "Sản xuất nội dung blog được tối ưu hóa SEO cho ngành tài chính cá nhân" tốt hơn "kiểm tra đồ AI." Tính cụ thể định hình cách bạn thiết kế agent và giao công việc.
 
-**Goals.** What does this company exist to do? "Publish 4 high-quality blog posts per week" or "Process and respond to customer inquiries within 2 hours." Goals cascade to your agents. Make them concrete and measurable.
+**Mục tiêu.** Công ty này tồn tại để làm gì? "Xuất bản 4 bài blog chất lượng cao mỗi tuần" hoặc "Xử lý và trả lời các yêu cầu của khách hàng trong vòng 2 giờ." Mục tiêu phân cấp xuống cho agent của bạn. Làm cho chúng cụ thể và có thể đo lường được.
 
-Click create. Your company now has a dashboard, a task board, a budget tracker, and an empty org chart. Time to hire.
+Nhấp tạo. Công ty của bạn bây giờ có dashboard, bảng nhiệm vụ, bộ theo dõi ngân sách và sơ đồ tổ chức trống. Đến lúc thuê người.
 
-## Step 3: Hire an Agent
+## Bước 3: Thuê Một Agent
 
-Navigate to Agents and create a new one.
+Điều hướng đến Agents và tạo một agent mới.
 
-**Name and role.** Give it a name and title. "Alex, Content Writer" or "Morgan, Research Analyst." The name is cosmetic. The role description matters. Write it like a job posting: "Writes 1,000-1,500 word blog articles on personal finance topics. Follows SEO best practices. Produces clear, engaging prose for a general adult audience."
+**Tên và vai trò.** Đặt cho nó một tên và chức danh. "Alex, Người Viết Nội Dung" hoặc "Morgan, Chuyên Gia Phân Tích Nghiên Cứu." Tên là trang trí. Mô tả vai trò quan trọng. Viết nó như một bài tuyển dụng: "Viết các bài blog 1.000-1.500 từ về chủ đề tài chính cá nhân. Tuân theo các thực hành SEO tốt nhất. Tạo ra văn xuôi rõ ràng, hấp dẫn cho đối tượng người lớn phổ thông."
 
-**Runtime.** This tells Paperclip what kind of agent to build:
-- Claude users: select the Claude Code runtime
-- Preferred API: configure a custom HTTP agent
-- Simplest option: a bash script agent for basic automated tasks
+**Runtime.** Điều này cho Paperclip biết loại agent cần xây dựng:
+- Người dùng Claude: chọn runtime Claude Code
+- API ưa thích: cấu hình một custom HTTP agent
+- Tùy chọn đơn giản nhất: một bash script agent cho các nhiệm vụ tự động cơ bản
 
-You can change the runtime later. Pick one and move on.
+Bạn có thể thay đổi runtime sau. Chọn một cái và tiếp tục.
 
-**Budget.** Set a monthly cap. $50 is enough to experiment without worry.
+**Ngân sách.** Đặt giới hạn hàng tháng. $50 là đủ để thử nghiệm mà không lo lắng.
 
-**Heartbeat.** How often should the agent check for work? Content writer: daily. Customer service: hourly. Weekly report generator: weekly. Match cadence to the work.
+**Heartbeat.** Tần suất agent nên kiểm tra công việc? Người viết nội dung: hàng ngày. Dịch vụ khách hàng: hàng giờ. Trình tạo báo cáo hàng tuần: hàng tuần. Phù hợp nhịp độ với công việc.
 
-Click create. Your first employee is hired. No interview. No offer letter. No two-week notice from a previous job.
+Nhấp tạo. Nhân viên đầu tiên của bạn được thuê. Không có phỏng vấn. Không có thư mời. Không có hai tuần thông báo từ công việc trước.
 
-## Step 4: Assign Work
+## Bước 4: Giao Công Việc
 
-Go to the task board. Create a task. Assign it to your agent.
+Đến bảng nhiệm vụ. Tạo một nhiệm vụ. Giao nó cho agent của bạn.
 
-Keep the first one simple and specific:
+Giữ cái đầu tiên đơn giản và cụ thể:
 
-- **Content company:** "Write a 1,200-word blog post about the top 5 budgeting strategies for freelancers. Include an introduction, five clearly defined strategies with explanations, and a conclusion. Optimize for the keyword 'budgeting tips for freelancers.'"
+- **Công ty nội dung:** "Viết một bài blog 1.200 từ về 5 chiến lược lập ngân sách hàng đầu cho freelancer. Bao gồm phần giới thiệu, năm chiến lược được xác định rõ ràng với giải thích, và kết luận. Tối ưu hóa cho từ khóa 'mẹo lập ngân sách cho freelancer.'"
 
-- **Research company:** "Compile a competitive analysis of the top 5 project management tools for small teams. For each tool, include pricing, key features, pros, cons, and target user. Present in a structured format."
+- **Công ty nghiên cứu:** "Biên soạn một phân tích cạnh tranh về 5 công cụ quản lý dự án hàng đầu cho các nhóm nhỏ. Đối với mỗi công cụ, bao gồm giá cả, tính năng chính, ưu điểm, nhược điểm và người dùng mục tiêu. Trình bày theo định dạng có cấu trúc."
 
-- **E-commerce:** "Write product descriptions for the following 10 items [list items]. Each description should be 100-150 words, highlight key benefits, and include a clear call to action."
+- **Thương mại điện tử:** "Viết mô tả sản phẩm cho 10 mặt hàng sau [liệt kê các mặt hàng]. Mỗi mô tả phải là 100-150 từ, nêu bật các lợi ích chính và bao gồm lời kêu gọi hành động rõ ràng."
 
-Notice the specificity. AI agents, like human employees, do better work with clear briefs. "Write something about budgeting" produces mush. The brief above produces something you might publish.
+Chú ý tính cụ thể. Các AI agent, như nhân viên người, làm việc tốt hơn với các bản tóm tắt rõ ràng. "Viết điều gì đó về lập ngân sách" tạo ra nội dung lộn xộn. Bản tóm tắt ở trên tạo ra thứ gì đó bạn có thể xuất bản.
 
-Submit the task. If the heartbeat is due, the agent picks it up. Otherwise, trigger a manual run.
+Gửi nhiệm vụ. Nếu heartbeat đến hạn, agent sẽ lấy nó. Nếu không, kích hoạt một lần chạy thủ công.
 
-Watch the task thread as the agent works. Every step in the chain of reasoning logs to the conversation thread, the transparency from Chapter 5, in action.
+Xem luồng nhiệm vụ khi agent làm việc. Mọi bước trong chuỗi lý luận được ghi vào luồng hội thoại, sự minh bạch từ Chương 5, trong hành động.
 
-## Step 5: Read the Thread, Not Just the Output
+## Bước 5: Đọc Luồng, Không Chỉ Kết Quả
 
-When your agent finishes, resist the urge to skip straight to the deliverable. Study the task thread. That is where you learn.
+Khi agent của bạn hoàn thành, hãy cưỡng lại sự thôi thúc bỏ qua thẳng đến sản phẩm giao nộp. Nghiên cứu luồng nhiệm vụ. Đó là nơi bạn học được.
 
-**In the thread, look for:**
-- How the agent interpreted your brief
-- What steps it took
-- Decisions you did not expect
-- How much budget the task consumed
+**Trong luồng, tìm kiếm:**
+- Cách agent hiểu bản tóm tắt của bạn
+- Những bước nó đã thực hiện
+- Những quyết định bạn không mong đợi
+- Bao nhiêu ngân sách nhiệm vụ tiêu thụ
 
-**In the output, ask:**
-- Would you publish this, send it to a client, or act on it?
-- Where does it fall short? "Not good" tells you nothing. Be specific.
-- What would you change in the brief next time?
+**Trong kết quả, hỏi:**
+- Bạn có xuất bản điều này, gửi cho khách hàng hoặc hành động theo nó không?
+- Nó còn thiếu ở đâu? "Không tốt" không cho bạn biết gì. Hãy cụ thể.
+- Bạn sẽ thay đổi gì trong bản tóm tắt lần sau?
 
-This first task calibrates your expectations as much as it produces work. You are learning what your agent can do, how it reasons, and what instructions yield the best results. Every task that follows will be sharper for it.
+Nhiệm vụ đầu tiên này hiệu chỉnh kỳ vọng của bạn nhiều như nó tạo ra công việc. Bạn đang học những gì agent của bạn có thể làm, cách nó lý luận, và hướng dẫn nào mang lại kết quả tốt nhất. Mọi nhiệm vụ theo sau sẽ sắc bén hơn vì nó.
 
-## Five Minutes with the Dashboard
+## Năm Phút Với Dashboard
 
-Company, agent, completed task. Now explore.
+Công ty, agent, nhiệm vụ hoàn thành. Bây giờ hãy khám phá.
 
-**Company overview.** Name, description, goals, high-level metrics: agent count, active tasks, completed tasks, total spend.
+**Tổng quan công ty.** Tên, mô tả, mục tiêu, các chỉ số cấp cao: số lượng agent, nhiệm vụ đang hoạt động, nhiệm vụ đã hoàn thành, tổng chi tiêu.
 
-**Org chart.** Just one agent for now. Hierarchy, roles, and reporting lines appear here as you grow.
+**Sơ đồ tổ chức.** Chỉ có một agent bây giờ. Hệ thống phân cấp, vai trò và đường báo cáo xuất hiện ở đây khi bạn phát triển.
 
-**Task board.** All tasks: pending, in progress, completed, blocked. Each carries a conversation thread, assigned agent, and status. This is your command center.
+**Bảng nhiệm vụ.** Tất cả các nhiệm vụ: đang chờ, đang tiến hành, đã hoàn thành, bị chặn. Mỗi nhiệm vụ có luồng hội thoại, agent được giao và trạng thái. Đây là trung tâm chỉ huy của bạn.
 
-**Budget tracking.** Per-agent spending, monthly totals, utilization percentages. Green means healthy, yellow means approaching limits, red means paused.
+**Theo dõi ngân sách.** Chi tiêu theo agent, tổng hàng tháng, phần trăm sử dụng. Màu xanh lá cây có nghĩa là lành mạnh, màu vàng có nghĩa là đang tiếp cận giới hạn, màu đỏ có nghĩa là đã dừng lại.
 
-**Audit logs.** The immutable record of everything that has happened. Every agent action, every decision, every tool call. When you need to know why something happened, look here.
+**Nhật ký kiểm tra.** Hồ sơ bất biến của mọi thứ đã xảy ra. Mọi hành động agent, mọi quyết định, mọi cuộc gọi công cụ. Khi bạn cần biết tại sao điều gì đó xảy ra, hãy tìm ở đây.
 
-## Common Stumbling Blocks
+## Những Khó Khăn Thường Gặp
 
-**"Command not found" on npx.** Node.js is not installed or is not in your PATH. Reinstall from nodejs.org and check the box that adds it to your system PATH.
+**"Không tìm thấy lệnh" trên npx.** Node.js chưa được cài đặt hoặc không có trong PATH của bạn. Cài đặt lại từ nodejs.org và chọn hộp để thêm nó vào PATH hệ thống của bạn.
 
-**Port already in use.** Something else occupies port 3000. Stop the other service or configure a different port.
+**Cổng đang được sử dụng.** Thứ gì đó khác chiếm cổng 3000. Dừng dịch vụ kia hoặc cấu hình một cổng khác.
 
-**Agent ignores a new task.** Check the heartbeat schedule. If you set it to daily and just created the task, the agent will not run until tomorrow. Trigger a manual run.
+**Agent bỏ qua nhiệm vụ mới.** Kiểm tra lịch heartbeat. Nếu bạn đặt nó là hàng ngày và vừa tạo nhiệm vụ, agent sẽ không chạy cho đến ngày mai. Kích hoạt một lần chạy thủ công.
 
-**Weak output.** Almost always a briefing problem, not an agent problem. Make descriptions more specific. Include examples of good output. Set clear constraints on length, format, and tone.
+**Kết quả yếu.** Hầu như luôn là vấn đề tóm tắt, không phải vấn đề agent. Làm cho mô tả cụ thể hơn. Bao gồm ví dụ về kết quả tốt. Đặt các ràng buộc rõ ràng về độ dài, định dạng và giọng điệu.
 
-**Budget draining fast.** Check the model tier. Opus-class models cost far more per token than Haiku-class. For most tasks, Sonnet-class gives the best balance of quality and cost.
+**Ngân sách cạn kiệt nhanh.** Kiểm tra tầng mô hình. Các mô hình Opus-class tốn nhiều hơn nhiều mỗi token so với Haiku-class. Đối với hầu hết các nhiệm vụ, Sonnet-class cho sự cân bằng tốt nhất giữa chất lượng và chi phí.
 
-## What Happened in 30 Minutes
+## Những Gì Đã Xảy Ra Trong 30 Phút
 
-You installed an AI company operating system. Created a company with a name, a description, and goals. Hired an AI employee with a role, a budget, and a schedule. Assigned work, watched it execute, and reviewed the output. You have a dashboard showing operations, finances, and an audit trail.
+Bạn đã cài đặt một hệ điều hành công ty AI. Tạo ra một công ty với tên, mô tả và mục tiêu. Thuê một nhân viên AI với vai trò, ngân sách và lịch trình. Giao công việc, theo dõi thực thi và xem xét kết quả. Bạn có dashboard hiển thị hoạt động, tài chính và hồ sơ kiểm tra.
 
-Most people think this is years away. You just did it over coffee.
+Hầu hết mọi người nghĩ điều này còn nhiều năm nữa. Bạn vừa làm nó trong khi uống cà phê.
 
-By tonight, this agent could produce work on a daily schedule. By week's end, three or four agents covering different functions. By month's end, a fully operational company producing real output.
+Tối nay, agent này có thể tạo ra công việc theo lịch hàng ngày. Đến cuối tuần, ba hoặc bốn agent bao phủ các chức năng khác nhau. Đến cuối tháng, một công ty hoạt động đầy đủ tạo ra sản lượng thực sự.
 
-But scattered agents running tasks are not a company. They are a sandbox. Building something real means thinking like a CEO: defining roles, designing hierarchy, creating delegation flows, building an organization that runs without you.
+Nhưng các agent rải rác chạy các nhiệm vụ không phải là một công ty. Chúng là một sandbox. Xây dựng điều gì đó thực sự có nghĩa là suy nghĩ như một CEO: xác định vai trò, thiết kế hệ thống phân cấp, tạo ra các luồng ủy quyền, xây dựng một tổ chức chạy mà không cần bạn.
 
-That is the next chapter.
+Đó là chương tiếp theo.

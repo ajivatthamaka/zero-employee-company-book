@@ -1,120 +1,120 @@
-# Chapter 11: You Are Not Optional
+# Chương 11: Bạn Không Thể Thiếu
 
-> "The computer is incredibly fast, accurate, and stupid. Man is incredibly slow, inaccurate, and brilliant. The marriage of the two is a force beyond calculation."
+> "Máy tính nhanh đến kinh ngạc, chính xác và ngu ngốc. Con người chậm đến kinh ngạc, không chính xác và sáng suốt. Sự kết hợp của cả hai là một lực lượng vượt ngoài tính toán."
 > — Leo Cherne
 
-AI agents will hallucinate. They will make bad calls. They will produce work that makes you cringe. They will do the wrong thing with full confidence.
+Các AI agent sẽ bịa đặt. Chúng sẽ đưa ra các quyết định tồi. Chúng sẽ tạo ra công việc khiến bạn phải rùng mình. Chúng sẽ làm sai với sự tự tin đầy đủ.
 
-Anyone who tells you AI can run a company without human oversight is selling something, or hasn't tried it. Zero-employee does not mean zero-human. It means one human with good judgment running a company where AI handles the labor and you handle the decisions.
+Bất kỳ ai nói với bạn rằng AI có thể điều hành công ty mà không cần giám sát của con người đang bán thứ gì đó, hoặc chưa thử. Không có nhân viên không có nghĩa là không có con người. Nó có nghĩa là một con người với phán đoán tốt điều hành một công ty nơi AI xử lý lao động và bạn xử lý các quyết định.
 
-This chapter matters because knowing what AI cannot do counts as much as knowing what it can. The founders who succeed here will not be the most optimistic about AI. They will be the most clear-eyed.
+Chương này quan trọng vì biết những gì AI không thể làm quan trọng ngang với biết những gì nó có thể. Các nhà sáng lập thành công ở đây sẽ không phải là những người lạc quan nhất về AI. Họ sẽ là những người nhìn rõ nhất.
 
-## Four Failure Modes
+## Bốn Chế Độ Thất Bại
 
-AI agents fail in specific, predictable ways. Know them in advance and you can govern around them rather than be surprised.
+Các AI agent thất bại theo những cách cụ thể, có thể dự đoán. Biết chúng trước và bạn có thể quản trị xung quanh chúng thay vì bị bất ngờ.
 
-### Hallucination
+### Bịa Đặt
 
-Language models generate text by predicting the next likely word from patterns in their training data. Sometimes the next likely word is wrong. The model "hallucinates," producing statements that sound confident and plausible but are false.
+Các mô hình ngôn ngữ tạo ra văn bản bằng cách dự đoán từ tiếp theo có khả năng nhất từ các mẫu trong dữ liệu đào tạo của chúng. Đôi khi từ tiếp theo có khả năng nhất là sai. Mô hình "bịa đặt," tạo ra các tuyên bố nghe có vẻ tự tin và hợp lý nhưng sai.
 
-This is not a bug getting fixed next quarter. It is built into how these models work. They are improving, but hallucination persists and may for some time.
+Đây không phải là một lỗi đang được sửa vào quý tới. Nó được tích hợp vào cách các mô hình này hoạt động. Chúng đang cải thiện, nhưng bịa đặt vẫn tồn tại và có thể trong một thời gian.
 
-For your company, the rule is plain: never trust agent output on factual claims without verification. Especially not for customer-facing content, financial data, or anything where being wrong has consequences. Your editing agents should check your writing agents. Your governance should gate anything where accuracy is non-negotiable. And you should spot-check regularly, even for ungated work.
+Đối với công ty của bạn, quy tắc rõ ràng: không bao giờ tin tưởng kết quả agent về các tuyên bố thực tế mà không xác minh. Đặc biệt không phải cho nội dung hướng tới khách hàng, dữ liệu tài chính, hoặc bất cứ điều gì mà sai có hậu quả. Các editing agent của bạn nên kiểm tra các writing agent của bạn. Quản trị của bạn nên kiểm soát bất cứ điều gì không thể thương lượng về độ chính xác. Và bạn nên kiểm tra định kỳ, ngay cả đối với công việc không có cổng.
 
-### Ambiguity
+### Sự Mơ Hồ
 
-Agents perform best when the task is clear and the success criteria defined. When things get ambiguous, when the right answer depends on context outside the data, when several valid approaches exist, when the decision requires weighing values on different scales, agents falter.
+Các agent hoạt động tốt nhất khi nhiệm vụ rõ ràng và các tiêu chí thành công được xác định. Khi mọi thứ trở nên mơ hồ, khi câu trả lời đúng phụ thuộc vào bối cảnh ngoài dữ liệu, khi nhiều cách tiếp cận hợp lệ tồn tại, khi quyết định đòi hỏi cân bằng các giá trị trên các thang đo khác nhau, các agent dao động.
 
-A customer writes an angry email that is technically a refund request but really a plea to be heard. A content brief can be read three ways, and the right one depends on audience nuance the agent lacks. A pricing decision requires balancing short-term revenue against long-term brand position.
+Một khách hàng viết email giận dữ về kỹ thuật là yêu cầu hoàn tiền nhưng thực sự là lời cầu xin được lắng nghe. Một tóm tắt nội dung có thể đọc theo ba cách, và cách đúng phụ thuộc vào sắc thái khán giả mà agent thiếu. Một quyết định về giá đòi hỏi cân bằng doanh thu ngắn hạn với vị thế thương hiệu dài hạn.
 
-These are judgment calls. They demand pattern recognition built from years of lived experience that no training set captures fully. Your agents will choose in these situations. They may not choose as you would.
+Đây là những quyết định phán đoán. Chúng đòi hỏi nhận dạng mẫu được xây dựng từ nhiều năm kinh nghiệm sống mà không có bộ dữ liệu đào tạo nào nắm bắt hoàn toàn. Các agent của bạn sẽ lựa chọn trong những tình huống này. Chúng có thể không lựa chọn như bạn.
 
-### Tone
+### Giọng Điệu
 
-AI can produce technically correct content that is tonally wrong. Formal when it should be casual. Enthusiastic when it should be measured. Generic when it should sound like your brand.
+AI có thể tạo ra nội dung kỹ thuật đúng nhưng giọng điệu sai. Trang trọng khi nên thân thiện. Hào hứng khi nên đo lường. Chung chung khi nên nghe như thương hiệu của bạn.
 
-This is improving fast. But for businesses where tone is brand, where *how* you say things matters as much as *what* you say, you need human review on voice-sensitive work. At minimum, set detailed voice guidelines in your agent roles and gate any content where a tone misstep could damage your name.
+Điều này đang cải thiện nhanh chóng. Nhưng đối với các doanh nghiệp mà giọng điệu là thương hiệu, nơi *cách* bạn nói điều gì đó quan trọng ngang với *điều gì* bạn nói, bạn cần xem xét con người về công việc nhạy cảm với giọng điệu. Ít nhất, hãy đặt các hướng dẫn giọng điệu chi tiết trong vai trò agent của bạn và kiểm soát bất kỳ nội dung nào mà lỗi giọng điệu có thể làm hỏng tên của bạn.
 
-### Originality
+### Tính Độc Đáo
 
-AI produces good work within established patterns. It can write a competent blog post in the style of existing blog posts. It can generate product descriptions that follow best practices. It can produce analyses that cover the expected ground.
+AI tạo ra công việc tốt trong các mẫu đã được thiết lập. Nó có thể viết một bài blog có năng lực theo phong cách các bài blog hiện có. Nó có thể tạo ra mô tả sản phẩm theo dõi các thực hành tốt nhất. Nó có thể tạo ra các phân tích bao gồm nền tảng dự kiến.
 
-What it does not do well is make something new. A campaign that breaks conventions. A voice never heard before. A product concept absent from the training data. Writing that stops someone mid-scroll because it sounds like nothing else.
+Những gì nó không làm tốt là tạo ra điều gì đó mới. Một chiến dịch phá vỡ các quy ước. Một giọng điệu chưa từng nghe. Một khái niệm sản phẩm vắng mặt trong dữ liệu đào tạo. Văn bản dừng ai đó giữa chừng cuộn vì nó nghe như không có gì khác.
 
-Taste and originality remain human advantages. If your business depends on being remarkably creative, that vision comes from you.
+Khiếu thẩm mỹ và tính độc đáo vẫn là lợi thế của con người. Nếu doanh nghiệp của bạn phụ thuộc vào sự sáng tạo đáng chú ý, tầm nhìn đó đến từ bạn.
 
-## CEO, Not Passenger
+## CEO, Không Phải Hành Khách
 
-You do not do the work. But you do not ignore it, either. You review, direct, decide, and intervene when needed. You trust the team but verify. You delegate but do not abdicate.
+Bạn không làm công việc. Nhưng bạn cũng không bỏ qua nó. Bạn xem xét, chỉ đạo, quyết định và can thiệp khi cần. Bạn tin tưởng đội ngũ nhưng xác minh. Bạn ủy quyền nhưng không từ bỏ.
 
-In practice:
+Trong thực tế:
 
-**Set clear standards.** Your agents should know exactly what good work looks like. The more specific your role definitions, style guides, and quality criteria, the less you intervene.
+**Đặt ra các tiêu chuẩn rõ ràng.** Agent của bạn nên biết chính xác công việc tốt trông như thế nào. Định nghĩa vai trò, hướng dẫn phong cách và tiêu chí chất lượng của bạn càng cụ thể, bạn can thiệp càng ít.
 
-**Review what matters, not everything.** You need not read every piece of output. Use audit logs and approval gates to focus on exceptions, flagged items, and high-stakes deliverables.
+**Xem xét những gì quan trọng, không phải mọi thứ.** Bạn không cần đọc mọi sản phẩm kết quả. Sử dụng nhật ký kiểm tra và cổng phê duyệt để tập trung vào các ngoại lệ, các mục được đánh dấu và các sản phẩm có rủi ro cao.
 
-**Fix the system, not the symptom.** When an agent produces poor work, the answer is rarely rewriting the output yourself. Refine the role definition, the task brief, or the quality standards. Improve the machine.
+**Sửa hệ thống, không phải triệu chứng.** Khi một agent tạo ra công việc kém, câu trả lời hiếm khi là tự tay viết lại kết quả. Tinh chỉnh định nghĩa vai trò, tóm tắt nhiệm vụ hoặc tiêu chuẩn chất lượng. Cải thiện máy móc.
 
-**Override without hesitation.** Some situations demand your direct judgment. The agents work for you. Your call is final.
+**Ghi đè mà không do dự.** Một số tình huống đòi hỏi phán đoán trực tiếp của bạn. Các agent làm việc cho bạn. Quyết định của bạn là cuối cùng.
 
-**Accept imperfection.** Your agents will not produce perfect work every time. Neither would human employees. The question is not "Is this perfect?" but "Is this good enough, and is the system getting better?"
+**Chấp nhận sự không hoàn hảo.** Agent của bạn sẽ không tạo ra công việc hoàn hảo mọi lúc. Nhân viên người cũng vậy. Câu hỏi không phải là "Cái này hoàn hảo không?" mà là "Cái này đủ tốt không, và hệ thống có đang tốt lên không?"
 
-## Five Jobs Only You Can Do
+## Năm Công Việc Chỉ Bạn Mới Có Thể Làm
 
-**Strategy.** Which markets to enter. Which products to build. Where to compete, where to differentiate. These require reading trends, seeing what the data does not say, and betting on incomplete information.
+**Chiến lược.** Thị trường nào cần thâm nhập. Sản phẩm nào cần xây dựng. Nơi nào để cạnh tranh, nơi nào để khác biệt. Những điều này đòi hỏi đọc xu hướng, nhìn thấy những gì dữ liệu không nói và đặt cược vào thông tin không đầy đủ.
 
-**Relationships.** Key clients. Partners. Investors. Community. AI can support relationship management with reminders, research, and draft messages, but the relationship itself is between people.
+**Mối quan hệ.** Khách hàng chính. Đối tác. Nhà đầu tư. Cộng đồng. AI có thể hỗ trợ quản lý mối quan hệ với nhắc nhở, nghiên cứu và tin nhắn nháp, nhưng bản thân mối quan hệ là giữa con người.
 
-**Brand.** What your company stands for. How it sounds. What it refuses to do. Brand reflects human values. AI can execute your brand, but you define it.
+**Thương hiệu.** Công ty của bạn đại diện cho điều gì. Nó nghe như thế nào. Những gì nó từ chối làm. Thương hiệu phản ánh các giá trị con người. AI có thể thực thi thương hiệu của bạn, nhưng bạn định nghĩa nó.
 
-**Ethics.** When the right decision is unclear. When customer trust is at stake. When the profitable choice conflicts with the responsible one. These decisions belong to someone who must live with the consequences.
+**Đạo đức.** Khi quyết định đúng đắn không rõ ràng. Khi niềm tin của khách hàng bị đe dọa. Khi lựa chọn có lợi nhuận mâu thuẫn với lựa chọn có trách nhiệm. Những quyết định này thuộc về ai đó phải sống với hậu quả.
 
-**Creative direction.** The big ideas. The breakthrough campaigns. The product visions that create new categories. AI is your production crew. You are the director.
+**Định hướng sáng tạo.** Những ý tưởng lớn. Các chiến dịch đột phá. Các tầm nhìn sản phẩm tạo ra các danh mục mới. AI là đội sản xuất của bạn. Bạn là đạo diễn.
 
-## Telling Customers the Truth
+## Nói Thật Với Khách Hàng
 
-Should your customers know your team is AI?
+Khách hàng của bạn có nên biết đội ngũ của bạn là AI không?
 
-No single right answer exists, but four guidelines hold:
+Không có một câu trả lời đúng duy nhất nào tồn tại, nhưng bốn hướng dẫn có giá trị:
 
-**Answer honestly when asked.** If a customer asks "Am I talking to a person?", tell the truth. Deceiving customers about whom they are dealing with is both unethical and, increasingly, illegal.
+**Trả lời thành thật khi được hỏi.** Nếu khách hàng hỏi "Tôi có đang nói chuyện với người không?", hãy nói thật. Lừa dối khách hàng về người họ đang giao dịch vừa phi đạo đức vừa, ngày càng, bất hợp pháp.
 
-**Consider disclosing up front.** Some businesses gain from transparency: "Our content is produced by AI and reviewed by our human editorial team." This signals that you are modern, efficient, and honest.
+**Xem xét tiết lộ trước.** Một số doanh nghiệp được hưởng lợi từ sự minh bạch: "Nội dung của chúng tôi được sản xuất bởi AI và được xem xét bởi đội biên tập con người của chúng tôi." Điều này báo hiệu rằng bạn hiện đại, hiệu quả và trung thực.
 
-**Never impersonate.** Your AI support agent should not pretend to be "Jessica from the support team." It can have a name. It should not fabricate a human identity.
+**Không bao giờ giả mạo.** Agent hỗ trợ AI của bạn không nên giả vờ là "Jessica từ đội hỗ trợ." Nó có thể có tên. Nó không nên bịa đặt một danh tính con người.
 
-**Watch the regulators.** Several jurisdictions are developing AI disclosure requirements, particularly for customer-facing communications. Stay current on what your market demands.
+**Theo dõi các nhà quản lý.** Một số khu vực pháp lý đang phát triển các yêu cầu tiết lộ AI, đặc biệt cho liên lạc hướng tới khách hàng. Theo dõi những gì thị trường của bạn yêu cầu.
 
-Transparency is not just right. It is smart. As AI-generated content becomes common, companies honest about their methods will earn more trust than those that hide them.
+Sự minh bạch không chỉ đúng. Nó thông minh. Khi nội dung do AI tạo ra trở nên phổ biến, các công ty trung thực về phương pháp của họ sẽ kiếm được nhiều niềm tin hơn những công ty che giấu chúng.
 
-## Jobs and Responsibility
+## Công Việc Và Trách Nhiệm
 
-This book is about building. But it would be dishonest to dodge the obvious: if every founder automates a company, what happens to everyone else's work?
+Cuốn sách này là về việc xây dựng. Nhưng sẽ không trung thực nếu né tránh điều hiển nhiên: nếu mọi nhà sáng lập tự động hóa công ty, điều gì xảy ra với công việc của mọi người khác?
 
-I do not have a complete answer. Nobody does. But consider the pattern:
+Tôi không có câu trả lời hoàn chỉnh. Không ai có. Nhưng hãy xem xét mẫu:
 
-Every wave of automation has eliminated jobs and created new ones. The net effect, historically, has been positive, but the transition is always painful for those caught in it. Factory workers displaced by assembly lines did not immediately become factory managers. The shift took years and fell unevenly.
+Mỗi làn sóng tự động hóa đã loại bỏ việc làm và tạo ra việc làm mới. Hiệu ứng ròng, theo lịch sử, đã là tích cực, nhưng sự chuyển tiếp luôn đau đớn cho những người bị mắc kẹt trong đó. Công nhân nhà máy bị thay thế bởi dây chuyền lắp ráp không ngay lập tức trở thành quản lý nhà máy. Sự chuyển dịch mất nhiều năm và rơi không đều.
 
-AI will follow the same pattern. Some jobs will vanish. New kinds of work will appear. The transition will be uneven and, for some people, genuinely hard.
+AI sẽ theo cùng một mẫu. Một số công việc sẽ biến mất. Các loại công việc mới sẽ xuất hiện. Sự chuyển tiếp sẽ không đều và, đối với một số người, thực sự khó.
 
-As a founder building in this space, you carry a responsibility to build thoughtfully:
+Là nhà sáng lập xây dựng trong không gian này, bạn mang trách nhiệm xây dựng một cách chu đáo:
 
-**Create value, not just extract it.** Build AI companies that produce things the world needs: useful content, better products, real services. Not arbitrage on cost reduction.
+**Tạo ra giá trị, không chỉ khai thác nó.** Xây dựng các công ty AI tạo ra những gì thế giới cần: nội dung hữu ích, sản phẩm tốt hơn, dịch vụ thực sự. Không phải chênh lệch về giảm chi phí.
 
-**Be honest about what you are doing.** Do not pretend your AI company employs people when it does not. Do not use AI as cover for cutting corners.
+**Trung thực về những gì bạn đang làm.** Đừng giả vờ công ty AI của bạn thuê người khi không phải. Đừng sử dụng AI như vỏ bọc để cắt góc.
 
-**Share what you learn.** If you build tools, templates, or knowledge in this space, put it out there. The more people who understand how to build with AI, the more broadly the benefits spread.
+**Chia sẻ những gì bạn học.** Nếu bạn xây dựng công cụ, mẫu hoặc kiến thức trong không gian này, hãy đưa nó ra ngoài. Càng nhiều người hiểu cách xây dựng với AI, lợi ích càng lan rộng.
 
-**Stay humble about predictions.** Nobody knows where this goes. Build responsibly, watch the effects, adjust. Dogmatism in either direction, "AI will solve everything" or "AI will destroy everything," serves no one.
+**Giữ khiêm tốn về dự đoán.** Không ai biết điều này sẽ đi đến đâu. Xây dựng có trách nhiệm, theo dõi hiệu ứng, điều chỉnh. Chủ nghĩa giáo điều theo cả hai hướng, "AI sẽ giải quyết mọi thứ" hoặc "AI sẽ phá hủy mọi thứ," không phục vụ ai.
 
-## Responsibility Pays
+## Trách Nhiệm Sinh Lợi
 
-Responsible AI use is better business. The "move fast and break things" crowd misses this.
+Sử dụng AI có trách nhiệm là kinh doanh tốt hơn. Đám đông "di chuyển nhanh và phá vỡ mọi thứ" bỏ lỡ điều này.
 
-Customers trust transparent companies. Investors prefer companies with governance and controls. Regulators will crack down on reckless operators, not responsible ones. Founders who build sustainable, quality-focused AI companies will still be running when the hype-chasers have moved on.
+Khách hàng tin tưởng các công ty minh bạch. Nhà đầu tư thích các công ty có quản trị và kiểm soát. Các cơ quan quản lý sẽ trấn áp các nhà điều hành liều lĩnh, không phải những người có trách nhiệm. Các nhà sáng lập xây dựng các công ty AI bền vững, tập trung vào chất lượng sẽ vẫn còn chạy khi những người theo đuổi cường điệu đã chuyển sang.
 
-Responsibility is not a constraint on building. It is the foundation for building something that lasts.
+Trách nhiệm không phải là ràng buộc về việc xây dựng. Đó là nền tảng để xây dựng điều gì đó bền lâu.
 
-AI is the most powerful tool ever made for amplifying what one person can do. But a tool without a hand on it is just metal. You are the hand. Your judgment, your values, your vision — these make a zero-employee company a real company, not a machine generating output.
+AI là công cụ mạnh mẽ nhất từng được tạo ra để khuếch đại những gì một người có thể làm. Nhưng một công cụ không có bàn tay nắm lấy nó chỉ là kim loại. Bạn là bàn tay. Phán đoán của bạn, các giá trị của bạn, tầm nhìn của bạn — những điều này làm cho công ty không có nhân viên trở thành một công ty thực sự, không phải một cỗ máy tạo ra kết quả.
 
-Now let's talk about what you should do in the next 48 hours.
+Bây giờ hãy nói về những gì bạn nên làm trong 48 giờ tới.

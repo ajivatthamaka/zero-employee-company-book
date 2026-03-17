@@ -1,74 +1,74 @@
 # Headcount Zero
 
-**How to Build an AI-Run Company with Paperclip**
+**Cách Xây Dựng Công Ty Vận Hành Bởi AI với Paperclip**
 
-By Anthony David Adams
+Bởi Anthony David Adams
 
 ---
 
-What if you never had to hire anyone?
+Điều gì sẽ xảy ra nếu bạn không bao giờ cần tuyển dụng bất kỳ ai?
 
-This book shows founders how to build and run companies using AI agents as their entire workforce. No employees. No payroll. No HR. One founder, an org chart full of AI agents, and an open-source platform called [Paperclip](https://paperclip.ing) to orchestrate it all.
+Cuốn sách này chỉ ra cho các nhà sáng lập cách xây dựng và điều hành công ty sử dụng các AI agent như toàn bộ lực lượng lao động. Không nhân viên. Không bảng lương. Không bộ phận nhân sự. Một nhà sáng lập, một sơ đồ tổ chức đầy đủ các AI agent, và một nền tảng mã nguồn mở có tên [Paperclip](https://paperclip.ing) để điều phối tất cả.
 
-## Praise
+## Lời Khen Ngợi
 
-<!-- Add blurbs here as they come in -->
+<!-- Thêm các nhận xét khi có -->
 
-> *Your blurb could be here.* Want to submit one? [Open an issue](../../issues/new?title=Book+blurb&body=Your+name%2C+title%2C+and+a+1-2+sentence+quote.) or email anthony@175g.com.
+> *Nhận xét của bạn có thể xuất hiện ở đây.* Muốn gửi một nhận xét? [Mở một issue](../../issues/new?title=Book+blurb&body=Your+name%2C+title%2C+and+a+1-2+sentence+quote.) hoặc gửi email đến anthony@175g.com.
 
-## Table of Contents
+## Mục Lục
 
-### Part 1: Why
+### Phần 1: Tại Sao
 
-| # | Chapter | |
+| # | Chương | |
 |---|---------|---|
-| 0 | [Place Your Bets](PART-1-WHY/00-introduction.md) | Introduction |
-| 1 | [Nobody's Being Honest](PART-1-WHY/01-nobodys-being-honest.md) | The gap between AI hype and reality |
-| 2 | [Smash the Loom](PART-1-WHY/02-smash-the-loom.md) | A brief history of automation panic |
-| 3 | [One Person, One Billion](PART-1-WHY/03-one-person-one-billion.md) | The one-person unicorn thesis |
+| 0 | [Đặt Cược Của Bạn](PART-1-WHY/00-introduction.md) | Giới thiệu |
+| 1 | [Không Ai Thành Thật](PART-1-WHY/01-nobodys-being-honest.md) | Khoảng cách giữa cường điệu AI và thực tế |
+| 2 | [Đập Tan Khung Cửi](PART-1-WHY/02-smash-the-loom.md) | Lịch sử ngắn gọn về nỗi hoảng loạn tự động hóa |
+| 3 | [Một Người, Một Tỷ](PART-1-WHY/03-one-person-one-billion.md) | Luận điểm về kỳ lân một người |
 
-### Part 2: What
+### Phần 2: Là Gì
 
-| # | Chapter | |
+| # | Chương | |
 |---|---------|---|
-| 4 | [Not a Chatbot](PART-2-WHAT/04-not-a-chatbot.md) | What AI agents actually are |
-| 5 | [Paperclip](PART-2-WHAT/05-paperclip.md) | The platform that makes it possible |
-| 6 | [Do the Math](PART-2-WHAT/06-do-the-math.md) | The economics of zero employees |
+| 4 | [Không Phải Chatbot](PART-2-WHAT/04-not-a-chatbot.md) | AI agent thực sự là gì |
+| 5 | [Paperclip](PART-2-WHAT/05-paperclip.md) | Nền tảng giúp điều đó trở nên khả thi |
+| 6 | [Tính Toán](PART-2-WHAT/06-do-the-math.md) | Kinh tế học của công ty không có nhân viên |
 
-### Part 3: How
+### Phần 3: Làm Thế Nào
 
-| # | Chapter | |
+| # | Chương | |
 |---|---------|---|
-| 7 | [Open Your Terminal](PART-3-HOW/07-open-your-terminal.md) | Build your first AI-run company |
-| 8 | [Who Does What](PART-3-HOW/08-who-does-what.md) | Designing your AI org chart |
-| 9 | [Kill Switch](PART-3-HOW/09-kill-switch.md) | Governance and oversight |
+| 7 | [Mở Terminal](PART-3-HOW/07-open-your-terminal.md) | Xây dựng công ty AI đầu tiên của bạn |
+| 8 | [Ai Làm Gì](PART-3-HOW/08-who-does-what.md) | Thiết kế sơ đồ tổ chức AI của bạn |
+| 9 | [Công Tắc Khẩn Cấp](PART-3-HOW/09-kill-switch.md) | Quản trị và giám sát |
 
-### Part 4: What If
+### Phần 4: Điều Gì Nếu
 
-| # | Chapter | |
+| # | Chương | |
 |---|---------|---|
-| 10 | [Run Ten at Once](PART-4-WHAT-IF/10-run-ten-at-once.md) | Scaling to multiple companies |
-| 11 | [You Are Not Optional](PART-4-WHAT-IF/11-you-are-not-optional.md) | The human element |
-| 12 | [48 Hours](PART-4-WHAT-IF/12-48-hours.md) | Your first two days |
-| 13 | [Don't Hire Anyone](PART-4-WHAT-IF/13-afterword.md) | Afterword |
+| 10 | [Chạy Mười Cùng Lúc](PART-4-WHAT-IF/10-run-ten-at-once.md) | Mở rộng sang nhiều công ty |
+| 11 | [Bạn Không Thể Thiếu](PART-4-WHAT-IF/11-you-are-not-optional.md) | Yếu tố con người |
+| 12 | [48 Giờ](PART-4-WHAT-IF/12-48-hours.md) | Hai ngày đầu tiên của bạn |
+| 13 | [Đừng Thuê Ai Cả](PART-4-WHAT-IF/13-afterword.md) | Lời kết |
 
-## Contributing
+## Đóng Góp
 
-Found a typo? Have a suggestion? Want to submit a blurb?
+Phát hiện lỗi đánh máy? Có đề xuất? Muốn gửi lời nhận xét?
 
-- **Edits & fixes:** [Submit a pull request](../../pulls)
-- **Ideas & feedback:** [Open an issue](../../issues)
-- **Blurbs:** [Open an issue](../../issues/new?title=Book+blurb&body=Your+name%2C+title%2C+and+a+1-2+sentence+quote.) or email anthony@175g.com
-- **Everything else:** anthony@175g.com
+- **Chỉnh sửa & sửa lỗi:** [Gửi pull request](../../pulls)
+- **Ý tưởng & phản hồi:** [Mở một issue](../../issues)
+- **Lời nhận xét:** [Mở một issue](../../issues/new?title=Book+blurb&body=Your+name%2C+title%2C+and+a+1-2+sentence+quote.) hoặc gửi email đến anthony@175g.com
+- **Mọi thứ khác:** anthony@175g.com
 
-## About
+## Giới Thiệu
 
-This book is open-source. Read it here, share it, or [get the formatted version on Amazon](#) when it launches.
+Cuốn sách này là mã nguồn mở. Đọc tại đây, chia sẻ nó, hoặc [tải phiên bản định dạng trên Amazon](#) khi ra mắt.
 
 [Paperclip](https://paperclip.ing) | [Singularity Playground](https://playground.earthpilot.co/singularity)
 
-## License
+## Giấy Phép
 
-This work is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Tác phẩm này được cấp phép theo [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-You are free to share and adapt this material for non-commercial purposes, with attribution.
+Bạn được tự do chia sẻ và điều chỉnh tài liệu này cho mục đích phi thương mại, với việc ghi nhận nguồn.
