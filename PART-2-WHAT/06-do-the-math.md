@@ -1,78 +1,78 @@
-# Chapter 6: Do the Math
+# Chương 6: Tính Toán
 
-> "Beware of little expenses; a small leak will sink a great ship."
+> "Hãy cẩn thận với những chi phí nhỏ; một vết rò nhỏ sẽ đắm một con tàu lớn."
 > — Benjamin Franklin
 
-The average US employee costs $85,000 a year in salary. But salary is just the start. Add health insurance ($7,000–$15,000), payroll taxes (7.65%), retirement contributions, paid time off, equipment, software licenses, office space, management overhead, HR, training, and the expense nobody budgets for (turnover, at 50–200% of annual salary per departure) and the real cost lands between $120,000 and $170,000 per person per year.
+Nhân viên trung bình tại Mỹ có giá 85.000 đô la mỗi năm về lương. Nhưng lương chỉ là điểm khởi đầu. Thêm bảo hiểm y tế (7.000–15.000 đô la), thuế bảng lương (7,65%), đóng góp hưu trí, nghỉ phép có lương, thiết bị, giấy phép phần mềm, không gian văn phòng, chi phí quản lý, HR, đào tạo, và chi phí mà không ai lập ngân sách cho (doanh chuyển, ở mức 50–200% lương hàng năm mỗi lần ra đi) và chi phí thực sự rơi vào khoảng 120.000 đến 170.000 đô la mỗi người mỗi năm.
 
-An AI agent on Paperclip costs $50 to $500 a month.
+Một AI agent trên Paperclip có giá 50 đến 500 đô la mỗi tháng.
 
-That gap is not a marginal improvement. It is a structural shift. If you are deciding between hiring your first employee and building your first AI org chart, this chapter is where you make the call.
+Khoảng cách đó không phải là một cải tiến nhỏ. Đó là một sự thay đổi cơ cấu. Nếu bạn đang quyết định giữa việc thuê nhân viên đầu tiên và xây dựng sơ đồ tổ chức AI đầu tiên, chương này là nơi bạn đưa ra quyết định.
 
-## What One Employee Actually Costs
+## Một Nhân Viên Thực Sự Tốn Bao Nhiêu
 
-Most founders think in salary. The real number runs 1.4 to 2x that.
+Hầu hết các nhà sáng lập nghĩ về lương. Con số thực chạy gấp 1,4 đến 2 lần đó.
 
-**Direct compensation.** Salary, bonuses, commissions, the number in the job posting.
+**Thù lao trực tiếp.** Lương, thưởng, hoa hồng, con số trong tin tuyển dụng.
 
-**Benefits.** Health insurance alone averages $7,911 for individual coverage and $22,463 for family coverage per year (2024 Kaiser Family Foundation data). Add dental, vision, life insurance, and disability.
+**Phúc lợi.** Bảo hiểm y tế trung bình 7.911 đô la cho bảo hiểm cá nhân và 22.463 đô la cho bảo hiểm gia đình mỗi năm (dữ liệu Kaiser Family Foundation 2024). Thêm nha khoa, thị lực, bảo hiểm nhân thọ và khuyết tật.
 
-**Payroll taxes.** Social Security (6.2%), Medicare (1.45%), federal and state unemployment. You pay these on top of salary. They are not deducted from it.
+**Thuế bảng lương.** An sinh xã hội (6,2%), Medicare (1,45%), thất nghiệp liên bang và tiểu bang. Bạn trả những khoản này trên lương. Chúng không được khấu trừ từ lương.
 
-**Retirement.** A competitive 401(k) match costs 3–6% of salary.
+**Hưu trí.** Một khoản đóng góp 401(k) cạnh tranh có giá 3–6% lương.
 
-**Paid time off.** The average US worker gets 10 vacation days, 8 sick days, and 7–10 paid holidays, roughly 5–6 weeks of pay for zero output. On an $85,000 salary, that is about $8,000 in paid non-productivity.
+**Nghỉ phép có lương.** Công nhân trung bình tại Mỹ nhận được 10 ngày nghỉ phép, 8 ngày ốm, và 7–10 ngày nghỉ lễ có lương, khoảng 5–6 tuần lương cho không có sản lượng. Với mức lương 85.000 đô la, đó là khoảng 8.000 đô la không sản xuất có lương.
 
-**Equipment and software.** Laptop, monitor, phone, desk, licenses. Budget $3,000–$5,000 per employee per year.
+**Thiết bị và phần mềm.** Laptop, màn hình, điện thoại, bàn làm việc, giấy phép. Ngân sách 3.000–5.000 đô la mỗi nhân viên mỗi năm.
 
-**Office space.** Average cost per employee: $12,000–$18,000 per year in a mid-tier US city. Much more in San Francisco, New York, or Los Angeles.
+**Không gian văn phòng.** Chi phí trung bình mỗi nhân viên: 12.000–18.000 đô la mỗi năm ở một thành phố Mỹ cấp trung. Nhiều hơn nhiều ở San Francisco, New York, hoặc Los Angeles.
 
-**Management overhead.** Every employee needs managing. The standard ratio is one manager per 5–8 direct reports. That manager's time and salary spread across the team.
+**Chi phí quản lý.** Mỗi nhân viên cần được quản lý. Tỷ lệ tiêu chuẩn là một quản lý cho 5–8 báo cáo trực tiếp. Thời gian và lương của quản lý đó được phân bổ trên toàn đội.
 
-**HR and administration.** Payroll, compliance, hiring, onboarding, performance reviews, conflict resolution, offboarding. Either you do it (and your time has a cost) or you hire HR, which means more employees.
+**HR và hành chính.** Bảng lương, tuân thủ, tuyển dụng, đào tạo nhân viên mới, đánh giá hiệu suất, giải quyết xung đột, thôi việc. Hoặc bạn làm điều đó (và thời gian của bạn có chi phí) hoặc bạn thuê HR, nghĩa là nhiều nhân viên hơn.
 
-**Training.** New employees take 3–6 months to reach full productivity. During ramp-up, you pay full price for partial output.
+**Đào tạo.** Nhân viên mới mất 3–6 tháng để đạt năng suất đầy đủ. Trong quá trình làm quen, bạn trả toàn bộ giá cho sản lượng một phần.
 
-**Turnover.** The average US voluntary turnover rate runs about 25% annually. When someone leaves, you lose institutional knowledge, spend months hiring, and restart the training cycle. Estimated cost: 50–200% of the role's annual salary.
+**Doanh chuyển.** Tỷ lệ doanh chuyển tự nguyện trung bình tại Mỹ khoảng 25% hàng năm. Khi ai đó ra đi, bạn mất kiến thức thể chế, dành nhiều tháng tuyển dụng và khởi động lại chu kỳ đào tạo. Chi phí ước tính: 50–200% lương hàng năm của vai trò.
 
-Add it up. An $85,000 employee really costs $120,000–$170,000. A five-person team runs $600,000–$850,000 a year before anyone ships a thing.
+Cộng lại. Một nhân viên 85.000 đô la thực sự tốn 120.000–170.000 đô la. Một đội ngũ năm người chạy 600.000–850.000 đô la mỗi năm trước khi bất kỳ ai giao hàng.
 
-## What One Agent Costs
+## Một Agent Tốn Bao Nhiêu
 
-AI agent costs come from three sources.
+Chi phí AI agent đến từ ba nguồn.
 
-**API calls.** This is the main expense. Every time an agent uses a model, to write, analyze, decide, or communicate, it makes an API call priced by token count (roughly, word count). Current pricing for capable models:
-- Fast, good-enough work (Claude Haiku-class): $0.25–$1.25 per million tokens
-- High-quality work (Claude Sonnet-class): $3–$15 per million tokens
-- Premium, complex reasoning (Claude Opus-class): $15–$75 per million tokens
+**Cuộc gọi API.** Đây là chi phí chính. Mỗi khi agent sử dụng mô hình, để viết, phân tích, quyết định hoặc liên lạc, nó thực hiện một cuộc gọi API được tính theo số lượng token (đại khái, số lượng từ). Giá hiện tại cho các mô hình có khả năng:
+- Công việc nhanh, đủ tốt (Claude Haiku-class): $0,25–$1,25 trên mỗi triệu token
+- Công việc chất lượng cao (Claude Sonnet-class): $3–$15 trên mỗi triệu token
+- Lý luận phức tạp cao cấp (Claude Opus-class): $15–$75 trên mỗi triệu token
 
-A million tokens is roughly 750,000 words, about ten novels. A typical business task (writing an article, analyzing data, summarizing research) uses 2,000–10,000 tokens. That is fractions of a cent to a few cents per task at the lower tiers.
+Một triệu token là khoảng 750.000 từ, tương đương mười cuốn tiểu thuyết. Một nhiệm vụ kinh doanh điển hình (viết bài, phân tích dữ liệu, tóm tắt nghiên cứu) sử dụng 2.000–10.000 token. Đó là phần nhỏ của một cent đến vài cent mỗi nhiệm vụ ở các tầng thấp hơn.
 
-**Compute and hosting.** Paperclip runs locally with an embedded Postgres database. On your own machine, the incremental cost is zero. You use hardware you already own. For 24/7 availability on a cloud server, budget $20–$100 a month.
+**Tính toán và lưu trữ.** Paperclip chạy cục bộ với cơ sở dữ liệu Postgres nhúng. Trên máy của bạn, chi phí tăng thêm là không. Bạn sử dụng phần cứng bạn đã sở hữu. Để có sẵn sàng 24/7 trên máy chủ đám mây, ngân sách 20–100 đô la mỗi tháng.
 
-**Third-party tools.** If your agents need paid APIs (email services, data providers, marketing platforms) those costs exist. But you would pay them with human employees too.
+**Công cụ bên thứ ba.** Nếu agent của bạn cần các API trả tiền (dịch vụ email, nhà cung cấp dữ liệu, nền tảng tiếp thị) những chi phí đó tồn tại. Nhưng bạn cũng sẽ trả chúng với nhân viên người.
 
-**Realistic monthly costs by workload:**
-- Light agent (a few tasks per day): $20–$50/month
-- Moderate agent (steady daily work): $50–$200/month
-- Heavy agent (continuous, complex work): $200–$500/month
+**Chi phí hàng tháng thực tế theo khối lượng công việc:**
+- Agent nhẹ (một vài nhiệm vụ mỗi ngày): $20–$50/tháng
+- Agent vừa phải (công việc hàng ngày ổn định): $50–$200/tháng
+- Agent nặng (công việc liên tục, phức tạp): $200–$500/tháng
 
-## $427,000 vs. $6,600
+## $427.000 vs. $6.600
 
-A concrete comparison. Take a small content marketing operation, the kind thousands of founders run right now.
+Một so sánh cụ thể. Hãy xem một hoạt động tiếp thị nội dung nhỏ, loại mà hàng nghìn nhà sáng lập đang điều hành ngay bây giờ.
 
-**Traditional Team (5 employees):**
-| Role | Salary | Fully Loaded |
+**Đội Ngũ Truyền Thống (5 nhân viên):**
+| Vai trò | Lương | Chi phí đầy đủ |
 |------|--------|-------------|
-| Content Writer #1 | $55,000 | $77,000 |
-| Content Writer #2 | $55,000 | $77,000 |
-| Editor | $65,000 | $91,000 |
-| SEO Specialist | $60,000 | $84,000 |
-| Project Manager | $70,000 | $98,000 |
-| **Total** | **$305,000** | **$427,000/year** |
+| Người viết nội dung #1 | $55.000 | $77.000 |
+| Người viết nội dung #2 | $55.000 | $77.000 |
+| Biên tập viên | $65.000 | $91.000 |
+| Chuyên gia SEO | $60.000 | $84.000 |
+| Quản lý dự án | $70.000 | $98.000 |
+| **Tổng cộng** | **$305.000** | **$427.000/năm** |
 
-**Paperclip AI Company:**
-| Agent Role | Model Tier | Monthly Cost |
+**Công Ty AI Paperclip:**
+| Vai trò Agent | Tầng Mô Hình | Chi phí hàng tháng |
 |-----------|-----------|-------------|
 | Writing Agent #1 | Sonnet-class | $150 |
 | Writing Agent #2 | Sonnet-class | $150 |
@@ -80,83 +80,83 @@ A concrete comparison. Take a small content marketing operation, the kind thousa
 | SEO Agent | Haiku-class | $50 |
 | Project Coordination Agent | Haiku-class | $50 |
 | Hosting (VPS) | — | $50 |
-| **Total** | | **$550/month = $6,600/year** |
+| **Tổng cộng** | | **$550/tháng = $6.600/năm** |
 
-$427,000 versus $6,600. A **98.5% cost reduction.**
+$427.000 so với $6.600. **Giảm chi phí 98,5%.**
 
-This comparison is not perfectly apples-to-apples. The human team brings judgment, relationships, and creative instincts that current AI agents cannot replicate. The AI team requires your oversight, and your time has value. Some tasks will always need a human writer.
+So sánh này không hoàn toàn tương đương. Đội ngũ người mang lại phán đoán, mối quan hệ và bản năng sáng tạo mà AI agent hiện tại không thể tái tạo. Đội ngũ AI yêu cầu sự giám sát của bạn, và thời gian của bạn có giá trị. Một số nhiệm vụ sẽ luôn cần người viết.
 
-But for the bulk of content marketing (blog posts, SEO articles, social media, email newsletters) the AI team produces comparable output at a fraction of the cost. The quality gap narrows every quarter.
+Nhưng đối với phần lớn tiếp thị nội dung (bài blog, bài SEO, mạng xã hội, bản tin email) đội ngũ AI tạo ra sản lượng tương đương với một phần nhỏ chi phí. Khoảng cách chất lượng thu hẹp mỗi quý.
 
-The question is not whether AI matches humans at everything. It is whether AI handles enough tasks well enough to justify the shift. For a growing number of business functions, it does.
+Câu hỏi không phải là liệu AI có sánh ngang với con người trong mọi thứ không. Câu hỏi là liệu AI có xử lý đủ nhiệm vụ đủ tốt để biện minh cho sự chuyển đổi không. Đối với ngày càng nhiều chức năng kinh doanh, câu trả lời là có.
 
-## 8,760 Hours a Year
+## 8.760 Giờ Mỗi Năm
 
-One cost dimension never appears in salary comparisons: time.
+Một chiều kích chi phí không bao giờ xuất hiện trong các so sánh lương: thời gian.
 
-A human employee works roughly 2,000 hours a year. Subtract meetings, email, lunch, and context-switching. Productivity studies show most knowledge workers produce 3–4 hours of actual output per day, and you get 750–1,000 productive hours per year.
+Một nhân viên người làm việc khoảng 2.000 giờ mỗi năm. Trừ đi các cuộc họp, email, bữa trưa và chuyển đổi ngữ cảnh. Các nghiên cứu năng suất cho thấy hầu hết công nhân tri thức tạo ra 3–4 giờ sản lượng thực sự mỗi ngày, và bạn nhận được 750–1.000 giờ năng suất mỗi năm.
 
-A Paperclip agent with heartbeat scheduling works 24 hours a day, 365 days a year: 8,760 hours. At a conservative 80% utilization (accounting for task queuing, processing time, and idle periods), that is about 7,000 productive hours.
+Một Paperclip agent với lập lịch heartbeat làm việc 24 giờ mỗi ngày, 365 ngày mỗi năm: 8.760 giờ. Ở mức sử dụng 80% thận trọng (tính đến hàng đợi nhiệm vụ, thời gian xử lý và thời gian nhàn rỗi), đó là khoảng 7.000 giờ năng suất.
 
-One AI agent produces 7–9x the productive hours of one human employee. You can run many agents at once.
+Một AI agent tạo ra gấp 7–9 lần giờ năng suất so với một nhân viên người. Bạn có thể chạy nhiều agent cùng một lúc.
 
-This is not about AI being "better" than humans. It is an asymmetry in available time. When your competitors' employees go home at 5 PM, your AI company keeps running. Weekends, holidays, sick days. Your agents do not stop.
+Đây không phải là về việc AI "tốt hơn" con người. Đó là sự bất đối xứng về thời gian có sẵn. Khi nhân viên của đối thủ cạnh tranh của bạn về nhà lúc 5 giờ chiều, công ty AI của bạn tiếp tục chạy. Cuối tuần, ngày lễ, ngày bệnh. Agent của bạn không dừng lại.
 
-Over a year, that compounds into an enormous operational gap.
+Theo năm tháng, điều đó kết hợp thành một khoảng cách vận hành rất lớn.
 
-## Flat Marginal Cost
+## Chi Phí Cận Biên Bằng Phẳng
 
-Traditional companies face a hard truth: scaling requires more people, which means more cost, more management, more complexity, and often less efficiency. Going from 5 employees to 50 does not cost 10x more. It costs 12–15x more. You need middle management, HR, bigger offices, and the communication overhead that grows exponentially with team size.
+Các công ty truyền thống phải đối mặt với một sự thật khó: mở rộng quy mô đòi hỏi nhiều người hơn, nghĩa là nhiều chi phí hơn, quản lý nhiều hơn, phức tạp hơn, và thường kém hiệu quả hơn. Từ 5 nhân viên lên 50 không tốn gấp 10 lần. Nó tốn gấp 12–15 lần. Bạn cần quản lý cấp trung, HR, văn phòng lớn hơn và chi phí giao tiếp tăng theo cấp số nhân với quy mô đội ngũ.
 
-AI companies scale in the opposite direction. Adding an agent to your Paperclip org chart costs $50–$500 a month, the same whether you have 3 agents or 30. No management overhead. No benefits. No ramp-up time. No office expansion. The marginal cost of growth stays nearly flat.
+Các công ty AI mở rộng theo hướng ngược lại. Thêm một agent vào sơ đồ tổ chức Paperclip của bạn tốn 50–500 đô la mỗi tháng, tương tự dù bạn có 3 agent hay 30. Không có chi phí quản lý. Không có phúc lợi. Không có thời gian làm quen. Không có mở rộng văn phòng. Chi phí cận biên của tăng trưởng gần như bằng phẳng.
 
-This is why AI-native startups require 22% less capital than traditional startups, according to recent industry data. Not just cheaper to start, but dramatically cheaper to grow.
+Đây là lý do tại sao các startup AI-native yêu cầu ít vốn hơn 22% so với các startup truyền thống, theo dữ liệu ngành gần đây. Không chỉ rẻ hơn để bắt đầu, mà rẻ hơn đáng kể để phát triển.
 
-And this is the math behind Altman's one-person billion-dollar company. One person does not do the work of a thousand. One person orchestrates AI agents whose costs scale linearly while output scales exponentially. Those margins drive valuations into the stratosphere.
+Và đây là toán học đằng sau công ty tỷ đô một người của Altman. Một người không thực hiện công việc của một nghìn. Một người điều phối các AI agent có chi phí mở rộng tuyến tính trong khi sản lượng mở rộng theo cấp số nhân. Những tỷ suất lợi nhuận đó đẩy định giá lên tầng mây.
 
-## Budget Controls in Paperclip
+## Kiểm Soát Ngân Sách Trong Paperclip
 
-Cheap and controlled are not the same thing. The most common fear about AI agents is not that they will fail. It is that they will work too hard and run up huge API bills.
+Rẻ và có kiểm soát không phải là một. Nỗi sợ phổ biến nhất về AI agent không phải là chúng sẽ thất bại. Đó là chúng sẽ làm việc quá nhiều và tạo ra hóa đơn API khổng lồ.
 
-Paperclip addresses this directly.
+Paperclip giải quyết điều này trực tiếp.
 
-**Per-agent monthly budgets.** Every agent has a hard spending cap. Not a guideline, a limit.
+**Ngân sách hàng tháng cho mỗi agent.** Mỗi agent có giới hạn chi tiêu cứng. Không phải hướng dẫn, mà là giới hạn.
 
-**Soft warnings at 80%.** When an agent hits 80% of its budget, you get notified. Time to decide: increase the budget, reduce the workload, or let it hit the cap and pause.
+**Cảnh báo nhẹ ở 80%.** Khi một agent đạt 80% ngân sách của nó, bạn được thông báo. Thời gian để quyết định: tăng ngân sách, giảm khối lượng công việc, hoặc để nó đạt giới hạn và dừng lại.
 
-**Automatic pause at 100%.** When an agent exhausts its budget, it stops. No exceptions. No surprises. No runaway costs. It pauses until the next cycle or until you increase the allocation.
+**Dừng tự động ở 100%.** Khi một agent cạn kiệt ngân sách, nó dừng lại. Không có ngoại lệ. Không có bất ngờ. Không có chi phí vượt mức. Nó dừng lại cho đến khi chu kỳ hàng tháng reset hoặc bạn tăng phân bổ.
 
-**Granular cost tracking.** Spending by agent, by task, by project, across the entire company. You can spot problems fast. Maybe your writing agents are cost-effective but your research agent burns budget on unnecessary depth.
+**Theo dõi chi phí chi tiết.** Chi tiêu theo agent, theo nhiệm vụ, theo dự án, trên toàn bộ công ty. Bạn có thể phát hiện vấn đề nhanh chóng. Có thể các agent viết của bạn hiệu quả về chi phí nhưng agent nghiên cứu của bạn đốt ngân sách vào độ sâu không cần thiết.
 
-This gives you better financial visibility than most companies have over their human workforce. Ask any manager what a specific employee cost to produce a specific deliverable, and you will get a blank stare. Paperclip tells you exactly, down to the penny.
+Điều này cho bạn khả năng hiển thị tài chính tốt hơn so với hầu hết các công ty có được về lực lượng lao động người của họ. Hỏi bất kỳ quản lý nào nhân viên cụ thể tốn bao nhiêu để tạo ra một sản phẩm cụ thể, và bạn sẽ nhận được cái nhìn trống rỗng. Paperclip cho bạn biết chính xác, đến từng xu.
 
-## Where Humans Still Win
+## Nơi Con Người Vẫn Chiến Thắng
 
-AI does not replace humans in every function. Not yet, and perhaps not ever in some areas.
+AI không thay thế con người trong mọi chức năng. Chưa đến lúc đó, và có thể không bao giờ trong một số lĩnh vực.
 
-**High-stakes relationships.** Closing a $500,000 deal, managing a key partnership, handling a customer crisis. These demand emotional intelligence, rapport, and judgment under pressure that AI does not reliably provide.
+**Các mối quan hệ quan trọng.** Chốt một thỏa thuận 500.000 đô la, quản lý một mối quan hệ đối tác chính, xử lý một cuộc khủng hoảng khách hàng. Những điều này đòi hỏi trí tuệ cảm xúc, sự đồng cảm và phán đoán dưới áp lực mà AI không cung cấp một cách đáng tin cậy.
 
-**Original creative work.** AI produces strong content within established patterns. It struggles with truly original vision, the kind that defines a brand, launches a cultural moment, or creates something the market has never seen.
+**Công việc sáng tạo ban đầu.** AI tạo ra nội dung mạnh mẽ trong các mẫu đã được thiết lập. Nó gặp khó khăn với tầm nhìn thực sự gốc, loại định nghĩa một thương hiệu, tung ra một khoảnh khắc văn hóa, hoặc tạo ra điều gì đó thị trường chưa từng thấy.
 
-**Strategic judgment.** AI can analyze data and present options. It cannot feel the market, read between the lines of a competitor's move, or make the gut calls that experienced founders make from years of pattern recognition.
+**Phán đoán chiến lược.** AI có thể phân tích dữ liệu và trình bày các lựa chọn. Nó không thể cảm nhận thị trường, đọc giữa các dòng của một bước đi của đối thủ, hay đưa ra những quyết định trực giác mà các nhà sáng lập kinh nghiệm đưa ra từ nhiều năm nhận dạng mẫu.
 
-**Ethical navigation.** When the right decision is ambiguous, when values conflict, stakeholders disagree, or the legal answer and the moral answer diverge, you want a human making that call.
+**Điều hướng đạo đức.** Khi quyết định đúng đắn mơ hồ, khi các giá trị mâu thuẫn, các bên liên quan không đồng ý, hoặc câu trả lời pháp lý và câu trả lời đạo đức phân kỳ, bạn muốn con người đưa ra quyết định đó.
 
-The smartest approach for many founders: AI agents handle the 80–90% of work that is systematic, repeatable, and scalable. You spend your energy on the 10–20% where humans are irreplaceable.
+Cách tiếp cận thông minh nhất cho nhiều nhà sáng lập: AI agent xử lý 80–90% công việc có hệ thống, có thể lặp lại và có thể mở rộng. Bạn dành năng lượng của mình vào 10–20% nơi con người không thể thay thế.
 
-Even in a "zero-employee" company, one employee matters enormously: you. The economics of zero are not about eliminating human judgment. They are about making it more valuable by freeing it from everything that does not require it.
+Ngay cả trong một công ty "không có nhân viên," một nhân viên quan trọng rất nhiều: bạn. Kinh tế học của không không phải là về việc loại bỏ phán đoán của con người. Chúng là về việc làm cho nó có giá trị hơn bằng cách giải phóng nó khỏi mọi thứ không yêu cầu nó.
 
-## Estimating Your Costs
+## Ước Tính Chi Phí Của Bạn
 
-Before Part III, where you build your company, a quick framework:
+Trước Phần III, nơi bạn xây dựng công ty của mình, một framework nhanh:
 
-1. List the roles you would hire for a traditional team
-2. Estimate fully loaded cost (salary x 1.4 minimum)
-3. Identify which roles AI agents could handle (most operational, analytical, and content roles qualify)
-4. Estimate agent costs: light ($30/mo), moderate ($150/mo), heavy ($350/mo)
-5. Add hosting ($50/mo) and third-party API costs
-6. Compare the totals
+1. Liệt kê các vai trò bạn sẽ thuê cho một đội ngũ truyền thống
+2. Ước tính chi phí đầy đủ (lương x 1,4 tối thiểu)
+3. Xác định vai trò nào AI agent có thể xử lý (hầu hết các vai trò vận hành, phân tích và nội dung đều đủ tiêu chuẩn)
+4. Ước tính chi phí agent: nhẹ ($30/tháng), vừa phải ($150/tháng), nặng ($350/tháng)
+5. Thêm lưu trữ ($50/tháng) và chi phí API bên thứ ba
+6. So sánh tổng số
 
-For most small business operations, savings run 90–98%. Even conservative estimates show 80%+ reduction.
+Đối với hầu hết các hoạt động kinh doanh nhỏ, tiết kiệm đạt 90–98%. Ngay cả các ước tính thận trọng cho thấy giảm 80%+.
 
-The economics are clear. The tools are free. Let's build.
+Kinh tế học rõ ràng. Công cụ miễn phí. Hãy xây dựng.

@@ -1,156 +1,156 @@
-# Chapter 8: Who Does What
+# Chương 8: Ai Làm Gì
 
-> "The best executive is the one who has sense enough to pick good men to do what he wants done, and self-restraint enough to keep from meddling with them while they do it."
+> "Giám đốc điều hành tốt nhất là người đủ sáng suốt để chọn những người tốt để làm những gì họ muốn và đủ kiềm chế bản thân không can thiệp vào khi họ làm."
 > — Theodore Roosevelt
 
-Every company begins with the same question: who does what?
+Mọi công ty đều bắt đầu với cùng một câu hỏi: ai làm gì?
 
-AI agents do not change this question. They sharpen it. Human employees improvise, ask questions, pick up cues in the hallway. Agents cannot. They need named roles, hard boundaries, and spelled-out relationships. Without that structure, you have expensive chaos, not a company.
+Các AI agent không thay đổi câu hỏi này. Chúng làm sắc nét nó. Nhân viên người có thể ứng biến, đặt câu hỏi, lấy tín hiệu trong hành lang. Agent thì không thể. Chúng cần các vai trò được đặt tên, ranh giới cứng và các mối quan hệ được trình bày rõ ràng. Không có cấu trúc đó, bạn có sự hỗn loạn tốn kém, không phải một công ty.
 
-If you want a business that runs while you sleep, think like a CEO. A CEO's first job is to decide who does what.
+Nếu bạn muốn một doanh nghiệp chạy trong khi bạn ngủ, hãy suy nghĩ như một CEO. Công việc đầu tiên của CEO là quyết định ai làm gì.
 
-## Roles, Not Tools
+## Vai Trò, Không Phải Công Cụ
 
-Most people shop for AI the way they shop for appliances: "I need a tool to write blog posts." "I need a tool to analyze data." "I need a tool to answer customer emails." They buy functions.
+Hầu hết mọi người mua AI theo cách họ mua thiết bị: "Tôi cần một công cụ để viết bài blog." "Tôi cần một công cụ để phân tích dữ liệu." "Tôi cần một công cụ để trả lời email khách hàng." Họ mua chức năng.
 
-A CEO hires roles. "I need a content writer." "I need a data analyst." "I need a support rep." The difference is not semantic. Tools sit in a drawer. Roles sit in an organization, with responsibilities, authority, and someone to answer to.
+Một CEO thuê vai trò. "Tôi cần một người viết nội dung." "Tôi cần một chuyên gia phân tích dữ liệu." "Tôi cần một đại diện hỗ trợ." Sự khác biệt không phải là ngữ nghĩa. Công cụ nằm trong ngăn kéo. Vai trò nằm trong một tổ chức, với trách nhiệm, thẩm quyền và ai đó để chịu trách nhiệm.
 
-In Paperclip, every agent fills a role: title, duties, place in the hierarchy, relationships to other agents. You are not installing software. You are hiring for a position.
+Trong Paperclip, mỗi agent lấp đầy một vai trò: chức danh, nhiệm vụ, vị trí trong hệ thống phân cấp, mối quan hệ với các agent khác. Bạn không cài đặt phần mềm. Bạn tuyển dụng cho một vị trí.
 
-Test it this way: if you hired a human for the job, what would the posting say? Write that posting. You now have a role definition.
+Kiểm tra nó theo cách này: nếu bạn thuê người cho công việc, bài tuyển dụng sẽ nói gì? Viết bài đó. Bạn bây giờ có một định nghĩa vai trò.
 
-## Four Org Charts
+## Bốn Sơ Đồ Tổ Chức
 
-Four structures for a zero-employee company. These are hypothetical. Adapt them.
+Bốn cấu trúc cho công ty không có nhân viên. Đây là những giả thuyết. Hãy điều chỉnh chúng.
 
-### Content Publisher
+### Nhà Xuất Bản Nội Dung
 
-The most common starting point, because content is where AI agents do their best work today.
+Điểm khởi đầu phổ biến nhất, vì nội dung là nơi AI agent làm tốt nhất ngày nay.
 
 ```
-You (Founder/CEO)
+Bạn (Nhà sáng lập/CEO)
 ├── Editorial Director Agent
-│   ├── Writer Agent #1 (long-form articles)
-│   ├── Writer Agent #2 (short-form/social)
+│   ├── Writer Agent #1 (bài dài)
+│   ├── Writer Agent #2 (ngắn/mạng xã hội)
 │   └── SEO Agent
-├── Publishing Agent (scheduling, posting)
-└── Analytics Agent (traffic, engagement tracking)
+├── Publishing Agent (lên lịch, đăng bài)
+└── Analytics Agent (theo dõi lưu lượng, tương tác)
 ```
 
-**How it works:** You set editorial strategy: topics, voice, audience, goals. The Editorial Director turns that into assignments. Writers draft. The SEO agent optimizes before publication. The Publishing agent schedules and distributes. Analytics reports performance.
+**Cách hoạt động:** Bạn đặt chiến lược biên tập: chủ đề, giọng điệu, đối tượng, mục tiêu. Editorial Director biến điều đó thành các bài tập. Các Writer thực hiện. SEO Agent tối ưu hóa trước khi xuất bản. Publishing Agent lên lịch và phân phối. Analytics báo cáo hiệu suất.
 
-**You handle:** Strategy, voice, flagged content, client relationships.
+**Bạn xử lý:** Chiến lược, giọng điệu, nội dung được đánh dấu, quan hệ khách hàng.
 
-### E-Commerce
+### Thương Mại Điện Tử
 
 ```
-You (Founder/CEO)
+Bạn (Nhà sáng lập/CEO)
 ├── Product Research Agent
-├── Copywriting Agent (listings, descriptions)
+├── Copywriting Agent (danh sách, mô tả)
 ├── Customer Support Agent
 ├── Inventory/Pricing Agent
-└── Marketing Agent (email, social)
+└── Marketing Agent (email, mạng xã hội)
 ```
 
-**How it works:** Product Research tracks trends and competitors. Copywriting produces and refreshes listings. Customer Support fields inquiries, escalating odd ones to you. Inventory watches stock and recommends price changes. Marketing runs email and social campaigns.
+**Cách hoạt động:** Product Research theo dõi xu hướng và đối thủ. Copywriting tạo ra và làm mới danh sách. Customer Support xử lý các yêu cầu, leo thang những yêu cầu khó cho bạn. Inventory theo dõi hàng tồn kho và đề xuất thay đổi giá. Marketing chạy email và các chiến dịch mạng xã hội.
 
-**You handle:** Product selection, supplier deals, brand, escalated complaints.
+**Bạn xử lý:** Lựa chọn sản phẩm, thỏa thuận nhà cung cấp, thương hiệu, khiếu nại leo thang.
 
-### SaaS Support
+### Hỗ Trợ SaaS
 
 ```
-You (Founder/Developer)
-├── QA Agent (testing, bug detection)
+Bạn (Nhà sáng lập/Nhà phát triển)
+├── QA Agent (kiểm tra, phát hiện lỗi)
 ├── Documentation Agent
-├── Customer Support Agent (tickets)
-├── Marketing Agent (blog, social, email)
-└── Analytics Agent (usage data, churn signals)
+├── Customer Support Agent (vé)
+├── Marketing Agent (blog, mạng xã hội, email)
+└── Analytics Agent (dữ liệu sử dụng, tín hiệu rời bỏ)
 ```
 
-**How it works:** You build the product. QA tests it. Documentation keeps help pages current. Customer Support answers tickets and FAQs. Marketing writes and promotes. Analytics watches user behavior and flags churn risk.
+**Cách hoạt động:** Bạn xây dựng sản phẩm. QA kiểm tra nó. Documentation giữ các trang trợ giúp cập nhật. Customer Support trả lời vé và FAQ. Marketing viết và quảng bá. Analytics theo dõi hành vi người dùng và đánh dấu rủi ro rời bỏ.
 
-**You handle:** Code, architecture, key accounts, strategy.
+**Bạn xử lý:** Mã, kiến trúc, tài khoản chính, chiến lược.
 
 ### Agency
 
 ```
-You (Founder/Account Director)
+Bạn (Nhà sáng lập/Giám đốc Tài khoản)
 ├── Project Manager Agent
-│   ├── Specialist Agent #1 (varies by service)
+│   ├── Specialist Agent #1 (khác nhau theo dịch vụ)
 │   ├── Specialist Agent #2
 │   └── Specialist Agent #3
-├── Client Communication Agent (status updates, reports)
-└── Business Development Agent (outreach, proposals)
+├── Client Communication Agent (cập nhật trạng thái, báo cáo)
+└── Business Development Agent (tiếp cận, đề xuất)
 ```
 
-**How it works:** You land clients and scope the work. The Project Manager splits it into tasks and assigns specialists. Specialists execute. Client Communication sends updates and compiles reports. Business Development prospects for new clients.
+**Cách hoạt động:** Bạn lấy khách hàng và xác định phạm vi công việc. Project Manager chia thành các nhiệm vụ và giao cho các chuyên gia. Các chuyên gia thực thi. Client Communication gửi cập nhật và biên soạn báo cáo. Business Development tìm kiếm khách hàng mới.
 
-**You handle:** Relationships, scoping, quality review, direction.
+**Bạn xử lý:** Mối quan hệ, xác định phạm vi, xem xét chất lượng, định hướng.
 
-These are patterns, not prescriptions. Your company will take its own shape. The principle stands: name the roles, assign the duties, draw the lines.
+Đây là các mẫu, không phải quy định. Công ty của bạn sẽ có hình dạng riêng. Nguyên tắc vẫn giữ: đặt tên vai trò, giao nhiệm vụ, vẽ đường giới hạn.
 
-## What Goes in a Role Definition
+## Những Gì Có Trong Định Nghĩa Vai Trò
 
-An agent's output depends on its role definition. Skimp here and you pay later.
+Kết quả của agent phụ thuộc vào định nghĩa vai trò của nó. Bỏ qua ở đây và bạn trả giá sau.
 
-**Title.** What is this role called?
+**Chức danh.** Vai trò này được gọi là gì?
 
-**Duties.** What does this agent do? Be specific. "Handles content" is vague. "Writes 1,000–1,500 word blog posts on assigned topics, following the company style guide, optimized for target keywords, delivered in markdown." That, an agent can execute.
+**Nhiệm vụ.** Agent này làm gì? Hãy cụ thể. "Xử lý nội dung" là mơ hồ. "Viết các bài blog 1.000–1.500 từ về các chủ đề được giao, tuân theo hướng dẫn phong cách công ty, được tối ưu hóa cho các từ khóa mục tiêu, được giao nộp bằng định dạng markdown." Điều đó, agent có thể thực hiện.
 
-**Authority.** What can this agent decide alone? What needs approval? A writer might pick subheadings freely but need sign-off on topics. A support agent might process refunds under $50 but escalate anything above.
+**Thẩm quyền.** Agent này có thể tự quyết định gì? Điều gì cần phê duyệt? Một người viết có thể tự do chọn các tiêu đề phụ nhưng cần chữ ký phê duyệt về chủ đề. Một agent hỗ trợ có thể xử lý hoàn tiền dưới $50 nhưng leo thang bất cứ điều gì trên đó.
 
-**Boundaries.** What must this agent *not* do? Spell them out. "Does not contact customers directly." "Does not make purchases."
+**Ranh giới.** Agent này *không* được làm gì? Nêu rõ. "Không liên hệ trực tiếp với khách hàng." "Không thực hiện mua hàng."
 
-**Standards.** What does good work look like? Give examples. "Articles must be accurate, use active voice, include at least three subheadings, and close with a call to action."
+**Tiêu chuẩn.** Công việc tốt trông như thế nào? Hãy cho ví dụ. "Bài viết phải chính xác, sử dụng giọng nói chủ động, bao gồm ít nhất ba tiêu đề phụ, và kết thúc bằng lời kêu gọi hành động."
 
-**Reporting.** Who does this agent answer to? Who answers to it? Who does it work beside?
+**Báo cáo.** Agent này trả lời cho ai? Ai trả lời cho nó? Ai nó làm việc bên cạnh?
 
-Every ambiguity you resolve here is a management problem you never face.
+Mọi sự mơ hồ bạn giải quyết ở đây là một vấn đề quản lý bạn không bao giờ phải đối mặt.
 
-## How Work Flows
+## Cách Công Việc Chảy
 
-In a Paperclip org chart, hierarchy governs the movement of work.
+Trong một sơ đồ tổ chức Paperclip, hệ thống phân cấp quản lý sự chuyển động của công việc.
 
-**Down.** A company goal enters at the top. A senior agent breaks it into smaller tasks and delegates. This continues until each task is concrete enough for one agent to finish.
+**Xuống.** Mục tiêu công ty vào từ trên cùng. Một agent cấp cao chia thành các nhiệm vụ nhỏ hơn và ủy quyền. Điều này tiếp tục cho đến khi mỗi nhiệm vụ đủ cụ thể để một agent hoàn thành.
 
-**Up.** Results climb back. Each level reviews, aggregates, or acts on what rises from below.
+**Lên.** Kết quả leo lên. Mỗi cấp xem xét, tổng hợp hoặc hành động theo những gì nổi lên từ dưới lên.
 
-**Sideways.** Agents at the same level pass work to one another. The writer hands a draft to the SEO agent. The SEO agent hands optimized copy to the publishing agent. You define these handoffs in the org structure.
+**Ngang.** Các agent ở cùng cấp chuyển công việc cho nhau. Người viết trao bản thảo cho SEO Agent. SEO Agent trao bản sao được tối ưu hóa cho Publishing Agent. Bạn xác định các bàn giao này trong cấu trúc tổ chức.
 
-**Flat or layered?** Flat means you directing agents with no middle layer. It works for three to five agents doing separate jobs. Simple, and you keep direct sight of everything. Layered means you directing managers who direct workers. It suits six or more agents, overlapping tasks, or a workload you cannot review alone. Managers filter: they check worker output so you see only finished work or flagged problems.
+**Phẳng hay nhiều lớp?** Phẳng có nghĩa là bạn chỉ đạo agent không có lớp trung gian. Nó hoạt động cho ba đến năm agent đang làm các công việc riêng biệt. Đơn giản, và bạn giữ tầm nhìn trực tiếp về mọi thứ. Nhiều lớp có nghĩa là bạn chỉ đạo các nhà quản lý người chỉ đạo công nhân. Nó phù hợp với sáu agent trở lên, các nhiệm vụ chồng chéo hoặc khối lượng công việc bạn không thể xem xét một mình. Các nhà quản lý lọc: họ kiểm tra kết quả công nhân để bạn chỉ thấy công việc hoàn thành hoặc các vấn đề được đánh dấu.
 
-Start flat. Add layers when you spend more time reviewing output than thinking about direction.
+Bắt đầu phẳng. Thêm các lớp khi bạn dành nhiều thời gian xem xét kết quả hơn là suy nghĩ về định hướng.
 
-## Teaching New Skills at Runtime
+## Dạy Kỹ Năng Mới Khi Chạy
 
-Paperclip lets you inject new skills into agents without rebuilding them. Hand your writer a new style guide. Give your SEO agent fresh keyword methods. Brief your support agent on a product launch. The agent absorbs the new material and keeps the old.
+Paperclip cho phép bạn tiêm các kỹ năng mới vào agent mà không cần xây dựng lại chúng. Trao cho người viết của bạn một hướng dẫn phong cách mới. Cung cấp cho SEO Agent các phương pháp từ khóa mới. Tóm tắt cho agent hỗ trợ về một đợt ra mắt sản phẩm. Agent hấp thụ tài liệu mới và giữ lại tài liệu cũ.
 
-Two consequences follow. First, agents improve steadily. As you learn what works, you feed them sharper instructions. Second, you can pivot fast. New competitor? Load competitive research into your analyst. New content angle? Update the editorial director. Seasonal shift? Retune your agents without redrawing the whole chart.
+Hai hệ quả theo sau. Thứ nhất, agent cải thiện đều đặn. Khi bạn học những gì hoạt động, bạn cung cấp cho họ hướng dẫn sắc bén hơn. Thứ hai, bạn có thể xoay chuyển nhanh chóng. Đối thủ mới? Tải nghiên cứu cạnh tranh vào chuyên gia phân tích của bạn. Góc nội dung mới? Cập nhật Editorial Director. Sự thay đổi theo mùa? Tinh chỉnh lại agent của bạn mà không cần vẽ lại toàn bộ sơ đồ.
 
-## One Founder, Ten Roles
+## Một Nhà Sáng Lập, Mười Vai Trò
 
-In a zero-employee company, your job changes. You are not doing the work. You are not supervising it in the old sense. You are designing the organization and making the decisions agents cannot.
+Trong một công ty không có nhân viên, công việc của bạn thay đổi. Bạn không làm công việc. Bạn không giám sát nó theo nghĩa cũ. Bạn đang thiết kế tổ chức và đưa ra các quyết định mà agent không thể.
 
-**You do:**
-- Set strategy and goals
-- Design and adjust the org chart
-- Review flagged output, not all output, only what demands your judgment
-- Make high-stakes calls on money, relationships, and ethics
-- Inject skills and retune roles
-- Watch budgets and company-wide numbers
+**Bạn làm:**
+- Đặt chiến lược và mục tiêu
+- Thiết kế và điều chỉnh sơ đồ tổ chức
+- Xem xét kết quả được đánh dấu, không phải tất cả kết quả, chỉ những gì đòi hỏi phán đoán của bạn
+- Đưa ra quyết định quan trọng về tiền, mối quan hệ và đạo đức
+- Tiêm kỹ năng và điều chỉnh vai trò
+- Theo dõi ngân sách và số liệu toàn công ty
 
-**You do not:**
-- Write first drafts
-- Process routine tasks
-- Coordinate agents day to day (the hierarchy does that)
-- Check every deliverable (audit logs do; you review on your schedule)
+**Bạn không làm:**
+- Viết bản thảo đầu tiên
+- Xử lý các nhiệm vụ thường xuyên
+- Phối hợp agent hàng ngày (hệ thống phân cấp làm điều đó)
+- Kiểm tra mọi sản phẩm giao nộp (nhật ký kiểm tra làm; bạn xem xét theo lịch của mình)
 
-This is the one-founder, ten-person-team equation in practice. You work at the level of a CEO while agents handle execution. Every hour you spend on strategy and structure multiplies through every agent below you.
+Đây là phương trình nhà sáng lập một người, đội ngũ mười người trong thực tế. Bạn làm việc ở cấp độ CEO trong khi agent xử lý việc thực thi. Mỗi giờ bạn dành cho chiến lược và cấu trúc nhân lên qua mỗi agent bên dưới bạn.
 
-## Three Agents First
+## Ba Agent Đầu Tiên
 
-Start with three agents. No more.
+Bắt đầu với ba agent. Không hơn.
 
-Pick the three jobs that would make the biggest difference now. Define their roles carefully, assign work, learn how they behave. Run them for a week or two before you add a fourth.
+Chọn ba công việc sẽ tạo ra sự khác biệt lớn nhất ngay bây giờ. Xác định vai trò của họ một cách cẩn thận, giao công việc, học cách họ hành xử. Chạy chúng trong một hoặc hai tuần trước khi thêm cái thứ tư.
 
-The temptation is to design a fifteen-agent company on day one. Resist it. Every agent is a role to define, a relationship to manage, a budget to set. Build from what you know, not what you guess.
+Sự cám dỗ là thiết kế một công ty mười lăm agent vào ngày đầu tiên. Hãy cưỡng lại nó. Mỗi agent là một vai trò cần xác định, một mối quan hệ cần quản lý, một ngân sách cần đặt. Xây dựng từ những gì bạn biết, không phải từ những gì bạn đoán.

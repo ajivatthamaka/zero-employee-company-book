@@ -1,172 +1,172 @@
-# Chapter 12: 48 Hours
+# Chương 12: 48 Giờ
 
-> "A year from now you will wish you had started today."
+> "Một năm từ bây giờ bạn sẽ ước mình đã bắt đầu hôm nay."
 > — Karen Lamb
 
-You know the why, the what, and the how. Now do it.
+Bạn biết lý do tại sao, là gì và làm thế nào. Bây giờ hãy làm nó.
 
-This chapter is your 48-hour plan. Not a month. Not "someday." Forty-eight hours. By the time the weekend ends, or two evenings pass, you will have a running AI company that produces real output.
+Chương này là kế hoạch 48 giờ của bạn. Không phải một tháng. Không phải "một ngày nào đó." Bốn mươi tám giờ. Khi cuối tuần kết thúc, hoặc hai buổi tối trôi qua, bạn sẽ có một công ty AI đang chạy tạo ra kết quả thực sự.
 
-The founders who start today gain a lead that compounds daily. A year from now, you will either wish you had started or be glad you did.
+Các nhà sáng lập bắt đầu hôm nay có được lợi thế tích lũy hàng ngày. Một năm nữa, bạn sẽ hoặc ước mình đã bắt đầu hoặc vui mừng vì đã làm.
 
-## Pick Your Use Case
+## Chọn Trường Hợp Sử Dụng Của Bạn
 
-Build around something you already do, not something you have never tried. The best first use case has three qualities:
+Xây dựng xung quanh điều gì đó bạn đã làm, không phải điều gì đó bạn chưa bao giờ thử. Trường hợp sử dụng đầu tiên tốt nhất có ba phẩm chất:
 
-1. **You do it regularly.** Content creation, research, customer communication, data analysis, report generation. Anything that eats hours every week.
+1. **Bạn làm nó thường xuyên.** Tạo nội dung, nghiên cứu, liên lạc khách hàng, phân tích dữ liệu, tạo báo cáo. Bất cứ điều gì ăn hàng giờ mỗi tuần.
 
-2. **The output is definable.** You can describe what "good" looks like. You can write a brief that specifies format, length, quality standards, and success criteria.
+2. **Kết quả có thể xác định.** Bạn có thể mô tả "tốt" trông như thế nào. Bạn có thể viết tóm tắt chỉ định định dạng, độ dài, tiêu chuẩn chất lượng và tiêu chí thành công.
 
-3. **The stakes are manageable.** Your first AI company should not handle your most important client or your highest-revenue product. Start where a mistake means "redo it," not "lose the customer."
+3. **Rủi ro có thể quản lý.** Công ty AI đầu tiên của bạn không nên xử lý khách hàng quan trọng nhất hoặc sản phẩm doanh thu cao nhất của bạn. Bắt đầu nơi sai lầm có nghĩa là "làm lại," không phải "mất khách hàng."
 
-Strong first use cases:
-- Blog content production
-- Social media content
-- Market research and competitive analysis
-- Email newsletters
-- Product descriptions
-- Customer FAQ and knowledge base maintenance
-- Data organization and reporting
+Các trường hợp sử dụng đầu tiên tốt:
+- Sản xuất nội dung blog
+- Nội dung mạng xã hội
+- Nghiên cứu thị trường và phân tích cạnh tranh
+- Bản tin email
+- Mô tả sản phẩm
+- Bảo trì FAQ và cơ sở kiến thức khách hàng
+- Tổ chức dữ liệu và báo cáo
 
-Pick one. Just one. You will build a small, focused AI company around it.
+Chọn một. Chỉ một. Bạn sẽ xây dựng một công ty AI nhỏ, tập trung xung quanh nó.
 
-## Day 1: Build
+## Ngày 1: Xây Dựng
 
-### Hours 1-2: Install and Create
+### Giờ 1-2: Cài Đặt và Tạo
 
-1. Open your terminal
-2. Run `npx paperclipai onboard --yes`
-3. Wait for setup to complete (2-3 minutes)
-4. Open the dashboard in your browser
-5. Create your first company:
-   - Name it something real
-   - Describe what it does in one sentence
-   - Set one measurable goal for the first month
+1. Mở terminal của bạn
+2. Chạy `npx paperclipai onboard --yes`
+3. Chờ thiết lập hoàn tất (2-3 phút)
+4. Mở dashboard trong trình duyệt của bạn
+5. Tạo công ty đầu tiên của bạn:
+   - Đặt tên cho nó là điều gì đó thực sự
+   - Mô tả những gì nó làm trong một câu
+   - Đặt một mục tiêu có thể đo lường cho tháng đầu tiên
 
-You now have an AI company. It is empty, but it exists. Time to hire.
+Bạn bây giờ có một công ty AI. Nó trống, nhưng nó tồn tại. Đến lúc thuê người.
 
-### Hours 2-3: Three Agents
+### Giờ 2-3: Ba Agent
 
-Based on your use case, create three agents. Here is a general pattern; adapt it to yours:
+Dựa trên trường hợp sử dụng của bạn, tạo ba agent. Đây là một mẫu chung; hãy điều chỉnh cho trường hợp của bạn:
 
-**Agent 1: The Doer.** This agent produces the primary output. If your company makes content, this is your writer. If research, your analyst. Define the role with precision: what the agent produces, in what format, to what standard.
+**Agent 1: Người Thực Hiện.** Agent này tạo ra kết quả chính. Nếu công ty của bạn tạo nội dung, đây là người viết của bạn. Nếu nghiên cứu, chuyên gia phân tích của bạn. Xác định vai trò với độ chính xác: những gì agent tạo ra, ở định dạng nào, theo tiêu chuẩn nào.
 
-**Agent 2: The Checker.** This agent reviews the Doer's output. An editor for content. A fact-checker for research. A QA agent for technical work. The job is to catch errors, improve quality, and flag anything that needs your eye.
+**Agent 2: Người Kiểm Tra.** Agent này xem xét kết quả của Người Thực Hiện. Biên tập viên cho nội dung. Người kiểm tra thực tế cho nghiên cứu. QA agent cho công việc kỹ thuật. Công việc là bắt lỗi, cải thiện chất lượng và đánh dấu bất cứ điều gì cần mắt của bạn.
 
-**Agent 3: The Coordinator.** This agent manages workflow: scheduling tasks, tracking deadlines, reporting status. In a small operation, a simple scheduler. In a larger one, a project manager that delegates and follows up.
+**Agent 3: Người Phối Hợp.** Agent này quản lý quy trình làm việc: lên lịch nhiệm vụ, theo dõi thời hạn, báo cáo trạng thái. Trong một hoạt động nhỏ, một bộ lên lịch đơn giản. Trong một hoạt động lớn hơn, một quản lý dự án ủy quyền và theo dõi.
 
-For each agent:
-- Write a specific role description (see Chapter 8)
-- Set a monthly budget ($50-$100 each to start)
-- Configure a daily heartbeat
-- Position them in a simple org chart: you, then coordinator, then doer and checker
+Cho mỗi agent:
+- Viết mô tả vai trò cụ thể (xem Chương 8)
+- Đặt ngân sách hàng tháng ($50-$100 mỗi cái để bắt đầu)
+- Cấu hình heartbeat hàng ngày
+- Đặt chúng trong sơ đồ tổ chức đơn giản: bạn, sau đó người phối hợp, sau đó người thực hiện và người kiểm tra
 
-### Hours 3-5: Real Work, Not Test Tasks
+### Giờ 3-5: Công Việc Thực Sự, Không Phải Nhiệm Vụ Thử Nghiệm
 
-Assign real work. Things you would actually do this week, whose output you can compare against what you would normally produce.
+Giao công việc thực sự. Những thứ bạn thực sự sẽ làm tuần này, có kết quả bạn có thể so sánh với những gì bạn thường tạo ra.
 
-Give each agent one task:
-- The Doer gets a real assignment: a real article topic, a real research question, a real set of product descriptions
-- The Checker gets the Doer's output to review once it is complete
-- The Coordinator gets the week's schedule to manage
+Giao mỗi agent một nhiệm vụ:
+- Người Thực Hiện nhận bài tập thực sự: chủ đề bài viết thực sự, câu hỏi nghiên cứu thực sự, bộ mô tả sản phẩm thực sự
+- Người Kiểm Tra nhận kết quả của Người Thực Hiện để xem xét khi nó hoàn thành
+- Người Phối Hợp nhận lịch tuần để quản lý
 
-Write specific briefs. Include:
-- What the output should look like
-- Length or scope requirements
-- Quality standards and constraints
-- Style guides or reference materials
-- What "done" means
+Viết các tóm tắt cụ thể. Bao gồm:
+- Kết quả nên trông như thế nào
+- Yêu cầu về độ dài hoặc phạm vi
+- Tiêu chuẩn chất lượng và ràng buộc
+- Hướng dẫn phong cách hoặc tài liệu tham khảo
+- Những gì "hoàn thành" có nghĩa là
 
-Submit the tasks and watch the first one execute. Read the task thread as it works. This is the most important learning moment of the day. You are watching how your agent interprets instructions and produces output in real time.
+Gửi các nhiệm vụ và xem cái đầu tiên thực thi. Đọc luồng nhiệm vụ khi nó hoạt động. Đây là khoảnh khắc học hỏi quan trọng nhất của ngày. Bạn đang theo dõi cách agent của mình diễn giải hướng dẫn và tạo ra kết quả theo thời gian thực.
 
-### Hours 5-6: Review, Then Refine
+### Giờ 5-6: Xem Xét, Sau Đó Tinh Chỉnh
 
-When the first task is done, review it:
+Khi nhiệm vụ đầu tiên hoàn thành, hãy xem xét nó:
 
-- **Usable?** Could you publish it, send it to a client, or act on it?
-- **Where did it exceed expectations?** This usually happens in at least one area.
-- **Where did it fall short?** This usually happens too.
-- **What would you change about the brief?** The most important question.
+- **Có thể sử dụng không?** Bạn có thể xuất bản nó, gửi cho khách hàng hoặc hành động theo nó không?
+- **Nó vượt qua kỳ vọng ở đâu?** Điều này thường xảy ra ở ít nhất một lĩnh vực.
+- **Nó còn thiếu ở đâu?** Điều này thường xảy ra cũng vậy.
+- **Bạn sẽ thay đổi gì về tóm tắt?** Câu hỏi quan trọng nhất.
 
-Do not fix the output by hand. Refine the role definition or the task brief and assign it again. You are training the system, not doing the work yourself.
+Đừng tự tay sửa kết quả. Tinh chỉnh định nghĩa vai trò hoặc tóm tắt nhiệm vụ và giao lại. Bạn đang đào tạo hệ thống, không tự làm công việc.
 
-## Day 2: Operate
+## Ngày 2: Vận Hành
 
-### Morning: Overnight Output
+### Buổi Sáng: Kết Quả Qua Đêm
 
-If your agents ran on their heartbeat schedule overnight, you will wake to completed tasks. Check your dashboard:
+Nếu agent của bạn chạy theo lịch heartbeat qua đêm, bạn sẽ thức dậy với các nhiệm vụ đã hoàn thành. Kiểm tra dashboard:
 
-- What was produced?
-- Did any budget warnings fire?
-- Were any approval gates triggered?
-- What does the audit log show?
+- Những gì được sản xuất?
+- Có cảnh báo ngân sách nào không?
+- Có cổng phê duyệt nào được kích hoạt không?
+- Nhật ký kiểm tra cho thấy gì?
 
-Review the output. For good work, note why. What made the brief effective? For weak work, adjust the role definition or brief and reassign.
+Xem xét kết quả. Đối với công việc tốt, hãy ghi chú tại sao. Điều gì làm cho tóm tắt hiệu quả? Đối với công việc yếu, hãy điều chỉnh định nghĩa vai trò hoặc tóm tắt và giao lại.
 
-This morning review becomes your daily routine as a zero-employee founder. It should take 30 to 60 minutes.
+Đánh giá buổi sáng này trở thành thói quen hàng ngày của bạn như một nhà sáng lập không có nhân viên. Nó nên mất 30 đến 60 phút.
 
-### Midday: Governance
+### Buổi Trưa: Quản Trị
 
-Now that you have seen your agents work, set up governance from experience rather than guesses:
+Bây giờ khi bạn đã thấy agent của mình làm việc, hãy thiết lập quản trị từ kinh nghiệm thay vì đoán mò:
 
-**Approval gates:** Based on yesterday's output, what should require your review before it is finalized? Set those gates now.
+**Cổng phê duyệt:** Dựa trên kết quả của ngày hôm qua, điều gì nên yêu cầu xem xét của bạn trước khi được hoàn thiện? Thiết lập những cổng đó ngay bây giờ.
 
-**Budget adjustments:** Were your initial budgets too high? Too low? Adjust based on actual spending from day one.
+**Điều chỉnh ngân sách:** Ngân sách ban đầu của bạn có quá cao không? Quá thấp không? Điều chỉnh dựa trên chi tiêu thực tế từ ngày đầu tiên.
 
-**Quality standards:** Now that you have seen what your agents produce, write specific quality criteria and inject them into the role definitions. "Articles must include at least three subheadings, cite at least one data point, and end with a clear call to action."
+**Tiêu chuẩn chất lượng:** Bây giờ khi bạn đã thấy những gì agent của mình tạo ra, hãy viết các tiêu chí chất lượng cụ thể và tiêm chúng vào định nghĩa vai trò. "Bài viết phải bao gồm ít nhất ba tiêu đề phụ, trích dẫn ít nhất một điểm dữ liệu và kết thúc bằng lời kêu gọi hành động rõ ràng."
 
-**Escalation rules:** Define what triggers an escalation to you. Output below a quality threshold? A task running late? An agent flagging uncertainty?
+**Quy tắc leo thang:** Xác định những gì kích hoạt leo thang cho bạn. Kết quả dưới ngưỡng chất lượng? Một nhiệm vụ chạy trễ? Một agent đánh dấu sự không chắc chắn?
 
-### Afternoon: A Full Week
+### Buổi Chiều: Một Tuần Đầy Đủ
 
-Based on the last 24 hours, assign a full week of tasks. Set up recurring assignments where appropriate. Configure the schedule so work flows from Doer to Checker to your review queue in a rhythm that fits your life.
+Dựa trên 24 giờ qua, giao một tuần đầy đủ nhiệm vụ. Thiết lập các bài tập định kỳ khi thích hợp. Cấu hình lịch để công việc chảy từ Người Thực Hiện đến Người Kiểm Tra đến hàng đợi xem xét của bạn theo nhịp điệu phù hợp với cuộc sống của bạn.
 
-This is when your AI company shifts from experiment to operation. You are no longer testing. You are running.
+Đây là lúc công ty AI của bạn chuyển từ thử nghiệm sang vận hành. Bạn không còn kiểm tra nữa. Bạn đang điều hành.
 
-### Evening: Five Questions
+### Buổi Tối: Năm Câu Hỏi
 
-Spend 30 minutes:
+Dành 30 phút:
 
-- What surprised me today?
-- What works better than expected?
-- What needs adjustment?
-- Am I spending my time on the right things, or micromanaging?
-- If I added a fourth agent next week, what role would matter most?
+- Hôm nay điều gì làm tôi ngạc nhiên?
+- Điều gì hoạt động tốt hơn mong đợi?
+- Điều gì cần điều chỉnh?
+- Tôi có đang dành thời gian vào những việc đúng đắn không, hay đang quản lý vi mô?
+- Nếu tôi thêm agent thứ tư vào tuần tới, vai trò nào quan trọng nhất?
 
-Write down your answers. This reflection is the beginning of institutional knowledge that will make your company better over time.
+Ghi lại câu trả lời của bạn. Sự phản tư này là sự khởi đầu của kiến thức thể chế sẽ làm cho công ty của bạn tốt hơn theo thời gian.
 
-## The Week After
+## Tuần Sau
 
-**Days 3-5:** Run the system. Do your morning reviews. Make incremental adjustments to briefs and role definitions. Resist the urge to redesign everything. Let the system operate. Learn from what it does.
+**Ngày 3-5:** Chạy hệ thống. Thực hiện các đánh giá buổi sáng của bạn. Thực hiện các điều chỉnh tăng dần cho tóm tắt và định nghĩa vai trò. Cưỡng lại sự thôi thúc thiết kế lại mọi thứ. Để hệ thống hoạt động. Học hỏi từ những gì nó làm.
 
-**Day 6:** Audit. Review the full week's logs. Calculate actual costs against budget. Assess output quality across the week. Identify patterns: what is consistently good, what is consistently weak.
+**Ngày 6:** Kiểm tra. Xem xét nhật ký tuần đầy đủ. Tính toán chi phí thực tế so với ngân sách. Đánh giá chất lượng kết quả trong suốt tuần. Xác định các mẫu: những gì nhất quán tốt, những gì nhất quán yếu.
 
-**Day 7:** Plan. Based on the week's data, decide: keep refining your three agents, or add a fourth? What would you change about the structure? What governance rules need adjustment?
+**Ngày 7:** Lên kế hoạch. Dựa trên dữ liệu của tuần, quyết định: tiếp tục tinh chỉnh ba agent của bạn, hay thêm agent thứ tư? Bạn sẽ thay đổi gì về cấu trúc? Quy tắc quản trị nào cần điều chỉnh?
 
-By the end of week one, you will have more practical knowledge about running an AI company than the vast majority of people talking about it.
+Đến cuối tuần đầu, bạn sẽ có nhiều kiến thức thực tế về việc điều hành một công ty AI hơn đại đa số những người đang nói về nó.
 
 ## Singularity Playground
 
-You do not have to figure this out alone.
+Bạn không phải tự mình tìm ra điều này.
 
-The Singularity Playground is a community of founders and builders experimenting with AI-native business models, sharing what works, asking questions when stuck, pushing each other to build things that were impossible two years ago.
+Singularity Playground là cộng đồng của các nhà sáng lập và người xây dựng đang thử nghiệm với các mô hình kinh doanh AI-native, chia sẻ những gì hoạt động, đặt câu hỏi khi bị mắc kẹt, thúc đẩy nhau xây dựng những thứ không thể được thực hiện hai năm trước.
 
-What you will find:
-- Founders at every stage, from first-day Paperclip users to operators running multi-company portfolios
-- Real examples of what works and what fails
-- Discussions about governance, agent coordination, and scaling
-- People who understand what you are building because they are building it too
+Những gì bạn sẽ tìm thấy:
+- Các nhà sáng lập ở mọi giai đoạn, từ người dùng Paperclip ngày đầu tiên đến các nhà vận hành chạy danh mục nhiều công ty
+- Các ví dụ thực sự về những gì hoạt động và những gì thất bại
+- Thảo luận về quản trị, phối hợp agent và mở rộng quy mô
+- Những người hiểu những gì bạn đang xây dựng vì họ cũng đang xây dựng nó
 
-The zero-employee company is a new way of working. A community of practitioners turns a lonely experiment into a movement. Movements build faster than individuals.
+Công ty không có nhân viên là một cách làm việc mới. Một cộng đồng những người thực hành biến một thí nghiệm cô đơn thành một phong trào. Các phong trào xây dựng nhanh hơn cá nhân.
 
-Come say hello. Share what you built in your first 48 hours. Ask the questions this book did not answer. The Singularity Playground is where these ideas become living practice.
+Hãy đến chào. Chia sẻ những gì bạn đã xây dựng trong 48 giờ đầu tiên. Đặt những câu hỏi mà cuốn sách này chưa trả lời. Singularity Playground là nơi những ý tưởng này trở thành thực hành sống.
 
-## After That
+## Sau Đó
 
-The AI landscape shifts weekly. New models launch. New agent capabilities emerge. Paperclip ships new features. The economics keep favoring the zero-employee model. The community grows. The opportunities multiply.
+Bối cảnh AI thay đổi hàng tuần. Các mô hình mới ra mắt. Khả năng agent mới xuất hiện. Paperclip ra mắt các tính năng mới. Kinh tế học tiếp tục ủng hộ mô hình không có nhân viên. Cộng đồng phát triển. Cơ hội nhân rộng.
 
-One thing will not change: the founders who started today will always be ahead of those who started tomorrow.
+Một điều sẽ không thay đổi: các nhà sáng lập bắt đầu hôm nay sẽ luôn đi trước những người bắt đầu ngày mai.
 
-You have the knowledge. You have the tools, and they are free. You have a 48-hour plan. You have a community waiting.
+Bạn có kiến thức. Bạn có các công cụ, và chúng miễn phí. Bạn có kế hoạch 48 giờ. Bạn có cộng đồng đang chờ.
 
-The only remaining variable is you.
+Biến số duy nhất còn lại là bạn.

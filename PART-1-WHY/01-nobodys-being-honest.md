@@ -1,78 +1,78 @@
-# Chapter 1: Nobody's Being Honest
+# Chương 1: Không Ai Thành Thật
 
-> "Men occasionally stumble over the truth, but most of them pick themselves up and hurry off as if nothing had happened."
+> "Thỉnh thoảng con người vấp phải sự thật, nhưng hầu hết họ tự đứng dậy và vội vàng bỏ đi như thể không có gì xảy ra."
 > — Winston Churchill
 
-In October 2025, Amazon announced plans to cut 14,000 corporate jobs. Beth Galetti, their Senior Vice President of People Experience and Technology, called AI "the most transformative technology we've seen since the Internet."
+Vào tháng 10 năm 2025, Amazon thông báo kế hoạch cắt giảm 14.000 việc làm văn phòng. Beth Galetti, Phó Chủ tịch Cấp cao về Trải nghiệm Nhân sự và Công nghệ của họ, gọi AI là "công nghệ biến đổi nhất chúng ta đã thấy kể từ Internet."
 
-That quote spread everywhere. The follow-up question went nowhere: *Were those 14,000 people replaced by AI?*
+Câu trích dẫn đó lan truyền khắp nơi. Câu hỏi tiếp theo không được chú ý: *14.000 người đó có bị thay thế bởi AI không?*
 
-Mostly, no. They were cut in *anticipation* of AI. Amazon didn't swap humans for software agents. They projected where AI was heading, calculated future headcount, and started trimming early.
+Hầu như không. Họ bị cắt giảm *trong dự đoán* về AI. Amazon không hoán đổi con người bằng các agent phần mềm. Họ dự đoán AI sẽ đi về đâu, tính toán số lượng nhân sự trong tương lai, và bắt đầu cắt giảm sớm.
 
-Amazon isn't alone.
+Amazon không đơn độc.
 
-The gap between AI *replacing* workers and companies *preemptively cutting* because they expect AI will. This is the distinction most people miss. If you want to build rather than be swept aside, you must see it plainly.
+Khoảng cách giữa AI *thay thế* công nhân và các công ty *cắt giảm phòng ngừa* vì họ kỳ vọng AI sẽ làm được. Đây là sự phân biệt mà hầu hết mọi người bỏ qua. Nếu bạn muốn xây dựng thay vì bị cuốn trôi, bạn phải nhìn thấy nó rõ ràng.
 
-## 85 Million Jobs
+## 85 Triệu Việc Làm
 
-The World Economic Forum projects AI will displace 85 million jobs globally by 2026. That makes headlines.
+Diễn đàn Kinh tế Thế giới dự báo AI sẽ thay thế 85 triệu việc làm trên toàn cầu vào năm 2026. Điều đó tạo ra các tiêu đề tin tức.
 
-What doesn't: the same report projects 170 million *new* jobs by 2030. Ninety-two million displaced, 170 million created. The net gain is large.
+Điều không được đưa tin: cùng một báo cáo dự báo 170 triệu *việc làm mới* vào năm 2030. Chín mươi hai triệu bị thay thế, 170 triệu được tạo ra. Mức tăng ròng là lớn.
 
-But averages deceive. Those 170 million new jobs won't appear in the same places, for the same people, requiring the same skills. Some workers will be ruined. Others, those who read the shift early, will build fortunes.
+Nhưng các con số trung bình gây hiểu lầm. Những 170 triệu việc làm mới đó sẽ không xuất hiện ở cùng nơi, cho cùng những người, đòi hỏi cùng kỹ năng. Một số công nhân sẽ bị tàn phá. Những người khác, những người đọc được sự chuyển dịch sớm, sẽ xây dựng tài sản.
 
-The question is not whether jobs are vanishing. They are. The question is which side you stand on: losing work, or building the new kind.
+Câu hỏi không phải là liệu việc làm có đang biến mất không. Chúng đang biến mất. Câu hỏi là bạn đứng ở phía nào: mất việc, hay xây dựng loại mới.
 
-## AI as Alibi
+## AI Như Cái Cớ
 
-In January 2026, Harvard Business Review published a piece with a title worth framing: "Companies Are Laying Off Workers Because of AI's Potential — Not Its Performance."
+Vào tháng 1 năm 2026, Harvard Business Review đăng một bài với tiêu đề đáng được đóng khung: "Các Công Ty Đang Sa Thải Công Nhân Vì Tiềm Năng Của AI — Không Phải Vì Hiệu Suất Của Nó."
 
-Companies aren't cutting because AI does the work. They're cutting because AI *might* do it eventually, and Wall Street rewards the signal. The word *performance* applies in both senses.
+Các công ty không cắt giảm vì AI thực hiện công việc. Họ cắt giảm vì AI *có thể* thực hiện được cuối cùng, và Phố Wall thưởng cho tín hiệu đó. Từ *hiệu suất* áp dụng theo cả hai nghĩa.
 
-A survey of over 1,000 global executives in late 2025 confirms the pattern. Nearly 60 percent of U.S. hiring managers planned layoffs in 2026, citing AI as the chief reason. Yet only 9 percent said AI had fully replaced any roles. Forty-five percent said it had *partly* reduced the need for new hires. And nearly 60 percent admitted they exaggerate AI's role, because it sounds better than "we missed revenue targets and need to cut payroll."
+Một cuộc khảo sát hơn 1.000 giám đốc điều hành toàn cầu vào cuối năm 2025 xác nhận xu hướng này. Gần 60% nhà quản lý tuyển dụng tại Mỹ lên kế hoạch sa thải vào năm 2026, trích dẫn AI là lý do chính. Tuy nhiên chỉ 9% nói AI đã hoàn toàn thay thế bất kỳ vai trò nào. Bốn mươi lăm phần trăm nói nó *một phần* giảm nhu cầu tuyển dụng mới. Và gần 60% thừa nhận họ phóng đại vai trò của AI, vì nghe hay hơn là "chúng tôi bỏ lỡ mục tiêu doanh thu và cần cắt giảm bảng lương."
 
-AI has become cover for ordinary cost-cutting. Half the "AI is replacing everyone" stories are really about companies using AI as an excuse. That noise buries the real signal: AI *is* changing how work gets done, though not the way panic headlines suggest.
+AI đã trở thành vỏ bọc cho việc cắt giảm chi phí thông thường. Một nửa các câu chuyện "AI đang thay thế tất cả mọi người" thực sự là về các công ty sử dụng AI như một cái cớ. Tiếng ồn đó che khuất tín hiệu thực: AI *đang* thay đổi cách công việc được thực hiện, mặc dù không theo cách các tiêu đề hoảng loạn gợi ý.
 
-## Not Replacement — Restructuring
+## Không Phải Thay Thế — Tái Cơ Cấu
 
-In 2025, the tech sector lost roughly 245,000 jobs. About 70,000, or 28.5 percent, were tied directly to AI adoption and automation. Those numbers are real, not spin.
+Vào năm 2025, ngành công nghệ mất khoảng 245.000 việc làm. Khoảng 70.000, hay 28,5%, gắn trực tiếp với việc áp dụng AI và tự động hóa. Những con số đó là thực, không phải là xoáy.
 
-But look at *what* is changing. The jobs disappearing sit in middle management, routine analysis, basic content production, scripted customer service, and administrative coordination. The jobs appearing are in AI oversight, prompt engineering, agent orchestration, system design, and above all, *founding and running AI-native companies.*
+Nhưng hãy nhìn vào *những gì* đang thay đổi. Các công việc đang biến mất nằm ở quản lý cấp trung, phân tích thường xuyên, sản xuất nội dung cơ bản, dịch vụ khách hàng theo kịch bản, và phối hợp hành chính. Các công việc xuất hiện là trong giám sát AI, kỹ thuật prompt, điều phối agent, thiết kế hệ thống, và trên hết, *sáng lập và vận hành các công ty AI-native.*
 
-Every wave of automation follows this pattern. The assembly line replaced craftsmen with factory operators. The computer replaced typing pools with knowledge workers. The internet replaced middlemen with platforms.
+Mỗi làn sóng tự động hóa đều theo mô hình này. Dây chuyền lắp ráp thay thế thợ thủ công bằng công nhân nhà máy. Máy tính thay thế các nhóm đánh máy bằng công nhân tri thức. Internet thay thế người trung gian bằng các nền tảng.
 
-AI isn't eliminating companies. It's eliminating the assumption that companies need employees.
+AI không loại bỏ công ty. Nó loại bỏ giả định rằng công ty cần nhân viên.
 
-For a founder, that is not a threat. It is the opening of a generation.
+Đối với một nhà sáng lập, đó không phải là mối đe dọa. Đó là cơ hội của một thế hệ.
 
-## The Tools Are Free
+## Các Công Cụ Miễn Phí
 
-What makes this moment different: the tools are available to everyone, now, for nothing.
+Điều làm cho thời điểm này khác biệt: các công cụ có sẵn cho mọi người, ngay bây giờ, miễn phí.
 
-When the internet arrived, you needed servers, bandwidth, and a team of developers. When mobile arrived, you needed iOS and Android engineers, designers, and app store distribution. The cost kept most people on the sidelines.
+Khi internet xuất hiện, bạn cần máy chủ, băng thông, và một đội ngũ nhà phát triển. Khi di động xuất hiện, bạn cần kỹ sư iOS và Android, nhà thiết kế, và phân phối app store. Chi phí giữ hầu hết mọi người ở bên lề.
 
-The cost of building an AI-native company today? A laptop and an internet connection.
+Chi phí để xây dựng một công ty AI-native ngày nay? Một chiếc laptop và kết nối internet.
 
-Paperclip is open-source and free. The AI models powering agents cost pennies per task through APIs. The knowledge you need is in this book. No gatekeepers. No expensive infrastructure. No venture capital required to start.
+Paperclip là mã nguồn mở và miễn phí. Các mô hình AI cung cấp cho agent có giá pennies mỗi tác vụ qua API. Kiến thức bạn cần có trong cuốn sách này. Không có người gác cổng. Không có cơ sở hạ tầng đắt tiền. Không cần vốn đầu tư mạo hiểm để bắt đầu.
 
-The advantage belongs to those who *move first*, not those with the most money. Build your zero-employee company today and you gain months or years of learning before the crowd arrives.
+Lợi thế thuộc về những người *hành động đầu tiên*, không phải những người có nhiều tiền nhất. Xây dựng công ty không có nhân viên ngày hôm nay và bạn có được nhiều tháng hoặc nhiều năm học hỏi trước khi đám đông đến.
 
-Most people debate whether AI will take their jobs. A few use AI to build companies that need no jobs at all. The distance between those two groups is your window.
+Hầu hết mọi người tranh luận về việc AI có lấy đi công việc của họ không. Một số người dùng AI để xây dựng công ty không cần công việc nào cả. Khoảng cách giữa hai nhóm đó là cửa sổ cơ hội của bạn.
 
-## Zero Payroll
+## Không Có Bảng Lương
 
-Consider a founder who runs a content marketing agency with five employees: two writers, an editor, an SEO specialist, a project manager. Payroll is $400,000 a year. With office costs, benefits, and overhead, the total reaches $550,000.
+Hãy xem xét một nhà sáng lập điều hành một công ty tiếp thị nội dung với năm nhân viên: hai người viết, một biên tập viên, một chuyên gia SEO, một quản lý dự án. Bảng lương là 400.000 đô la mỗi năm. Với chi phí văn phòng, phúc lợi và chi phí chung, tổng cộng đạt 550.000 đô la.
 
-She rebuilds on Paperclip. A writing agent drafts. An editing agent revises. An SEO agent handles search optimization. A project management agent coordinates deadlines and client communication. She reviews output, makes strategic decisions, and manages client relationships.
+Cô ấy xây dựng lại trên Paperclip. Một agent viết nháp. Một agent biên tập chỉnh sửa lại. Một agent SEO xử lý tối ưu hóa tìm kiếm. Một agent quản lý dự án phối hợp thời hạn và liên lạc khách hàng. Cô ấy xem xét kết quả, đưa ra quyết định chiến lược, và quản lý mối quan hệ với khách hàng.
 
-Costs drop from $550,000 to roughly $6,000 a year in API calls and hosting. Output rises because agents work around the clock. Quality holds, sometimes improves, because agents have no off days, and she audits everything through logs.
+Chi phí giảm từ 550.000 xuống khoảng 6.000 đô la mỗi năm cho các cuộc gọi API và lưu trữ. Sản lượng tăng vì agent làm việc suốt ngày đêm. Chất lượng duy trì, đôi khi cải thiện, vì agent không có những ngày tồi tệ, và cô ấy kiểm tra mọi thứ qua nhật ký.
 
-That example is hypothetical. The math is not. Founders are running these calculations today. Those who act on them will hold a commanding advantage.
+Ví dụ đó là giả thuyết. Toán học thì không. Các nhà sáng lập đang thực hiện những tính toán này ngày hôm nay. Những người hành động theo chúng sẽ có lợi thế vượt trội.
 
-## Your Move
+## Bước Đi Của Bạn
 
-What if, instead of worrying whether AI will take your job, you built the AI company?
+Điều gì sẽ xảy ra nếu, thay vì lo lắng AI có lấy đi công việc của bạn không, bạn xây dựng công ty AI đó?
 
-Take everything you know about your industry, the problems, the waste, the work that consumes time without producing value, and build an AI company to solve it. Not by hiring a team and managing payroll. By designing an organization of AI agents, setting their goals, and letting them execute while you direct strategy and growth.
+Hãy lấy tất cả những gì bạn biết về ngành của mình, các vấn đề, sự lãng phí, công việc tiêu tốn thời gian mà không tạo ra giá trị, và xây dựng một công ty AI để giải quyết nó. Không phải bằng cách thuê một đội ngũ và quản lý bảng lương. Bằng cách thiết kế một tổ chức gồm các AI agent, đặt ra mục tiêu của họ, và để họ thực thi trong khi bạn chỉ đạo chiến lược và tăng trưởng.
 
-The tools exist. The economics work. The only missing piece is the decision.
+Các công cụ tồn tại. Kinh tế học hoạt động. Phần còn thiếu duy nhất là quyết định.

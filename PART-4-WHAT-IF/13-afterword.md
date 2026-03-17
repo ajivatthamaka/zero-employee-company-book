@@ -1,58 +1,58 @@
-# Afterword: Don't Hire Anyone
+# Lời Kết: Đừng Thuê Ai Cả
 
-> "The secret of getting ahead is getting started."
+> "Bí mật của việc tiến lên là bắt đầu."
 > — Mark Twain
 
-Somewhere right now, a founder is building a company that will never have employees.
+Đâu đó ngay bây giờ, một nhà sáng lập đang xây dựng một công ty sẽ không bao giờ có nhân viên.
 
-No office. No payroll. No org chart made of people. No all-hands meetings where nothing gets decided.
+Không có văn phòng. Không có bảng lương. Không có sơ đồ tổ chức làm bằng người. Không có cuộc họp toàn công ty nơi không có gì được quyết định.
 
-Just vision, AI agents, and a tool called Paperclip.
+Chỉ là tầm nhìn, các AI agent và một công cụ gọi là Paperclip.
 
-That founder might be sitting at a kitchen table or a coffee shop. She opened her laptop, ran one command, and started building. She designed an org chart of agents, each with a role, a budget, and a mandate. She assigned real work, reviewed real output, and iterated until the thing ran.
+Nhà sáng lập đó có thể đang ngồi ở bàn bếp hoặc một quán cà phê. Cô ấy mở laptop, chạy một lệnh và bắt đầu xây dựng. Cô ấy thiết kế sơ đồ tổ chức gồm các agent, mỗi cái với vai trò, ngân sách và nhiệm vụ. Cô ấy giao công việc thực sự, xem xét kết quả thực sự và lặp đi lặp lại cho đến khi mọi thứ chạy.
 
-By the time most people finish debating whether AI will change anything, this founder already built the proof.
+Vào thời điểm hầu hết mọi người xong tranh luận về việc AI có thay đổi bất cứ điều gì không, nhà sáng lập này đã xây dựng bằng chứng.
 
-## Watchers and Builders
+## Người Xem Và Người Xây
 
-The world is splitting into two groups faster than anyone expected.
+Thế giới đang tách thành hai nhóm nhanh hơn bất kỳ ai mong đợi.
 
-The first watches. They read articles about AI. They attend webinars. They wait for someone to say it is safe to move.
+Nhóm đầu tiên xem. Họ đọc các bài viết về AI. Họ tham dự hội thảo trực tuyến. Họ chờ đợi ai đó nói rằng sẽ an toàn khi di chuyển.
 
-The second builds. They launch AI companies, test what works, learn from what fails, and compound what they know every day. The clarity the first group wants will come from what the second group builds.
+Nhóm thứ hai xây dựng. Họ ra mắt các công ty AI, kiểm tra những gì hoạt động, học từ những gì thất bại và tích lũy những gì họ biết mỗi ngày. Sự rõ ràng mà nhóm đầu tiên muốn sẽ đến từ những gì nhóm thứ hai xây dựng.
 
-You have read this book. You know the economics, the tools, the history.
+Bạn đã đọc cuốn sách này. Bạn biết kinh tế học, công cụ, lịch sử.
 
-Which group are you in?
+Bạn thuộc nhóm nào?
 
-## What You Now Know
+## Những Gì Bạn Bây Giờ Biết
 
-You understand why the zero-employee company is inevitable. Not from hype, but from cost data and historical pattern.
+Bạn hiểu tại sao công ty không có nhân viên là không thể tránh khỏi. Không phải từ cường điệu, mà từ dữ liệu chi phí và mẫu lịch sử.
 
-You understand what AI agents are and why they differ from the chatbots most people picture.
+Bạn hiểu AI agent là gì và tại sao chúng khác với chatbot mà hầu hết mọi người hình dung.
 
-You understand how Paperclip turns a collection of agents into a structured, governed, accountable company.
+Bạn hiểu cách Paperclip biến một tập hợp agent thành một công ty có cấu trúc, được quản trị, có trách nhiệm.
 
-You have a step-by-step process for building your first AI company in 48 hours.
+Bạn có quy trình từng bước để xây dựng công ty AI đầu tiên của mình trong 48 giờ.
 
-You have a community, the Singularity Playground, where other founders share what they learn.
+Bạn có cộng đồng, Singularity Playground, nơi các nhà sáng lập khác chia sẻ những gì họ học.
 
-And you have the single most important asset in any period of technological upheaval: you started paying attention before the crowd.
+Và bạn có tài sản quan trọng nhất trong bất kỳ giai đoạn biến động công nghệ nào: bạn đã bắt đầu chú ý trước đám đông.
 
-## Come Build With Us
+## Hãy Xây Dựng Cùng Chúng Tôi
 
-This book was the start of a conversation, not the end of one.
+Cuốn sách này là sự bắt đầu của một cuộc trò chuyện, không phải là sự kết thúc.
 
-The Singularity Playground exists because building the future should not be solo work. Some members are building their first Paperclip company. Some run portfolios of ten. Some create templates others can use. All of them started where you are now.
+Singularity Playground tồn tại vì xây dựng tương lai không nên là công việc solo. Một số thành viên đang xây dựng công ty Paperclip đầu tiên của họ. Một số điều hành danh mục mười công ty. Một số tạo ra các mẫu mà những người khác có thể sử dụng. Tất cả họ đều bắt đầu ở nơi bạn đang ở bây giờ.
 
-Share your first 48-hour results. Ask the questions this book raised but did not answer. Some questions yield only to practice, and practice is better in company.
+Chia sẻ kết quả 48 giờ đầu tiên của bạn. Đặt những câu hỏi mà cuốn sách này đặt ra nhưng không trả lời. Một số câu hỏi chỉ nhường bộ cho thực hành, và thực hành tốt hơn khi có bạn đồng hành.
 
-The tools are free. The knowledge is in your hands. The community is waiting.
+Công cụ miễn phí. Kiến thức đang trong tay bạn. Cộng đồng đang chờ.
 
-The only person who can decide to start is you.
+Người duy nhất có thể quyết định bắt đầu là bạn.
 
-And if you do, if you open that terminal, type that command, and build that first company, you join a small but growing group of founders building the future of business while everyone else argues about whether it is possible.
+Và nếu bạn làm, nếu bạn mở terminal đó, gõ lệnh đó và xây dựng công ty đầu tiên đó, bạn gia nhập một nhóm nhỏ nhưng đang phát triển của các nhà sáng lập đang xây dựng tương lai của kinh doanh trong khi tất cả mọi người tranh luận về việc điều đó có thể không.
 
-I'll see you in the Playground.
+Tôi sẽ gặp bạn trong Playground.
 
 — Anthony David Adams

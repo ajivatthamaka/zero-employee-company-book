@@ -1,172 +1,172 @@
-# Chapter 9: Kill Switch
+# Chương 9: Công Tắc Khẩn Cấp
 
-> "Trust, but verify."
+> "Tin tưởng, nhưng hãy xác minh."
 > — Ronald Reagan
 
-The first question people ask about AI companies: "What if something goes wrong?"
+Câu hỏi đầu tiên mọi người hỏi về các công ty AI: "Điều gì sẽ xảy ra nếu có sự cố?"
 
-Good question. If you hand operations to AI agents, even with oversight, the system needs hard controls. Not guidelines. Not policies. Mechanical limits that prevent bad outcomes no matter what any agent does.
+Câu hỏi tốt. Nếu bạn giao hoạt động cho các AI agent, ngay cả với sự giám sát, hệ thống cần các kiểm soát cứng. Không phải hướng dẫn. Không phải chính sách. Các giới hạn cơ học ngăn chặn kết quả xấu bất kể agent nào làm gì.
 
-This is where the zero-employee company stops being a novelty and becomes a business. A toy has features. A company has governance.
+Đây là nơi công ty không có nhân viên ngừng là sự mới lạ và trở thành một doanh nghiệp. Đồ chơi có tính năng. Công ty có quản trị.
 
-## Three Layers of Budget Control
+## Ba Lớp Kiểm Soát Ngân Sách
 
-We covered the economics in Chapter 6. Now the controls.
+Chúng ta đã đề cập đến kinh tế học trong Chương 6. Bây giờ là các kiểm soát.
 
-Paperclip enforces spending through three levels:
+Paperclip thực thi chi tiêu qua ba cấp độ:
 
-### Per-Agent Monthly Caps
+### Giới Hạn Hàng Tháng Cho Mỗi Agent
 
-Every agent has a monthly spending cap: the most it can spend on API calls, compute, and tool usage. You set this at creation and adjust it anytime.
+Mỗi agent có giới hạn chi tiêu hàng tháng: số tiền tối đa nó có thể chi cho các cuộc gọi API, tính toán và sử dụng công cụ. Bạn đặt giới hạn này khi tạo và điều chỉnh bất kỳ lúc nào.
 
-This is not a suggestion. The system enforces it.
+Đây không phải là gợi ý. Hệ thống thực thi nó.
 
-Match the budget to the role. A content writer producing daily articles might need $150-$200/month. An analytics agent running weekly reports, $30-$50. A research agent doing deep dives, $200-$400.
+Phù hợp ngân sách với vai trò. Một người viết nội dung tạo ra các bài hàng ngày có thể cần $150-$200/tháng. Một analytics agent chạy báo cáo hàng tuần, $30-$50. Một research agent thực hiện các nghiên cứu sâu, $200-$400.
 
-When in doubt, set it lower. Raising a budget takes seconds. Undoing work from an overspending agent does not.
+Khi có nghi ngờ, đặt thấp hơn. Tăng ngân sách mất vài giây. Hoàn tác công việc từ một agent chi tiêu quá mức thì không.
 
-### Soft Warning at 80%
+### Cảnh Báo Nhẹ Ở 80%
 
-When an agent hits 80% of its budget, Paperclip notifies you. This gives you time to decide:
+Khi một agent đạt 80% ngân sách của nó, Paperclip thông báo cho bạn. Điều này cho bạn thời gian để quyết định:
 
-- **Increase the budget** if the agent is doing valuable work
-- **Reduce the workload** by deferring non-critical tasks
-- **Investigate** whether the agent is spending well or burning money on unnecessary complexity
-- **Do nothing** and let it run to the hard cap
+- **Tăng ngân sách** nếu agent đang làm công việc có giá trị
+- **Giảm khối lượng công việc** bằng cách hoãn các nhiệm vụ không quan trọng
+- **Điều tra** liệu agent có đang chi tiêu tốt hay đang đốt tiền vào sự phức tạp không cần thiết
+- **Không làm gì** và để nó chạy đến giới hạn cứng
 
-The 80% warning is your check engine light. It does not mean something is wrong. It means pay attention.
+Cảnh báo 80% là đèn kiểm tra động cơ của bạn. Nó không có nghĩa là có gì đó sai. Nó có nghĩa là hãy chú ý.
 
-### Full Stop at 100%
+### Dừng Hoàn Toàn Ở 100%
 
-When an agent exhausts its budget, it stops. No new tasks, no pending work, no API calls, until the monthly cycle resets or you increase the allocation.
+Khi một agent cạn kiệt ngân sách, nó dừng lại. Không có nhiệm vụ mới, không có công việc đang chờ, không có cuộc gọi API, cho đến khi chu kỳ hàng tháng reset hoặc bạn tăng phân bổ.
 
-This eliminates runaway costs. No matter how many tasks are queued, no matter how urgent the work, an agent cannot exceed its budget. The system enforces this mechanically, not through trust.
+Điều này loại bỏ các chi phí vượt mức. Bất kể có bao nhiêu nhiệm vụ đang xếp hàng, bất kể công việc khẩn cấp đến mức nào, agent không thể vượt quá ngân sách của nó. Hệ thống thực thi điều này về mặt cơ học, không phải thông qua sự tin tưởng.
 
-Anyone who has opened a surprise AWS invoice will appreciate the design.
+Bất kỳ ai đã nhận được một hóa đơn AWS bất ngờ sẽ đánh giá cao thiết kế này.
 
-### Cost Tracking by Task, Project, Agent, and Month
+### Theo Dõi Chi Phí Theo Nhiệm Vụ, Dự Án, Agent và Tháng
 
-Beyond per-agent budgets, Paperclip tracks costs by task, project, agent, company, and time period, week over week and month over month.
+Ngoài ngân sách cho mỗi agent, Paperclip theo dõi chi phí theo nhiệm vụ, dự án, agent, công ty và kỳ thời gian, tuần qua tuần và tháng qua tháng.
 
-This granularity lets you improve. Maybe your research agent spends $100 per competitive analysis when a simpler approach would cost $20 and produce 90% of the value. Maybe one agent is far more cost-efficient than another doing similar work. Maybe Tuesday tasks cost more than Friday tasks because of how you write briefs.
+Tính chi tiết này cho phép bạn cải thiện. Có thể research agent của bạn chi $100 cho mỗi phân tích cạnh tranh khi một cách tiếp cận đơn giản hơn sẽ tốn $20 và tạo ra 90% giá trị. Có thể một agent hiệu quả hơn nhiều về chi phí so với một agent khác làm công việc tương tự. Có thể các nhiệm vụ ngày Thứ Ba tốn nhiều hơn các nhiệm vụ ngày Thứ Sáu vì cách bạn viết tóm tắt.
 
-You cannot improve what you cannot measure.
+Bạn không thể cải thiện những gì bạn không thể đo lường.
 
-## Approval Gates
+## Các Cổng Phê Duyệt
 
-Not everything should run on autopilot. Some decisions are too important, too nuanced, or too risky for full delegation. Approval gates let you keep human control where it counts.
+Không phải mọi thứ đều nên chạy tự động. Một số quyết định quá quan trọng, quá tinh tế hoặc quá rủi ro để ủy quyền hoàn toàn. Các cổng phê duyệt cho phép bạn giữ quyền kiểm soát của con người ở nơi quan trọng.
 
-An approval gate is a checkpoint where an agent pauses and waits for your go-ahead before proceeding. You decide what gets gated.
+Cổng phê duyệt là điểm kiểm tra nơi agent dừng lại và chờ phê duyệt của bạn trước khi tiếp tục. Bạn quyết định những gì bị kiểm soát.
 
-### Gate These
+### Kiểm Soát Những Điều Này
 
-**External communications.** Emails, social media posts, customer responses. Until you trust your agents in conversation, gate everything outbound.
+**Liên lạc bên ngoài.** Email, bài đăng mạng xã hội, phản hồi khách hàng. Cho đến khi bạn tin tưởng agent trong cuộc trò chuyện, hãy kiểm soát mọi thứ hướng ra ngoài.
 
-**Publishing.** Blog posts, product listings, marketing copy. Review before it goes live.
+**Xuất bản.** Bài blog, danh sách sản phẩm, bản sao tiếp thị. Xem xét trước khi nó được công khai.
 
-**Financial decisions.** Pricing changes, purchase recommendations, refunds above a threshold.
+**Quyết định tài chính.** Thay đổi giá, khuyến nghị mua hàng, hoàn tiền trên ngưỡng.
 
-**Structural changes.** Hiring new agents, changing the org chart, modifying governance rules. Always require your sign-off.
+**Thay đổi cơ cấu.** Thuê agent mới, thay đổi sơ đồ tổ chức, sửa đổi quy tắc quản trị. Luôn yêu cầu chữ ký của bạn.
 
-**Strategy execution.** When a senior agent develops a plan, review it before subordinate agents carry it out.
+**Thực thi chiến lược.** Khi một agent cấp cao phát triển kế hoạch, hãy xem xét nó trước khi các agent cấp dưới thực hiện.
 
-### Let These Run
+### Để Những Điều Này Chạy
 
-**Internal processing.** Research, analysis, drafting, data organization. Work that stays inside your system and touches nothing external.
+**Xử lý nội bộ.** Nghiên cứu, phân tích, soạn thảo, tổ chức dữ liệu. Công việc ở trong hệ thống của bạn và không chạm vào bất cứ điều gì bên ngoài.
 
-**Routine operations.** Tasks following established patterns with predictable outputs. Once you have verified an agent handles a recurring task well, let it run.
+**Hoạt động thường xuyên.** Các nhiệm vụ tuân theo các mẫu đã được thiết lập với kết quả có thể dự đoán. Khi bạn đã xác minh một agent xử lý tốt một nhiệm vụ định kỳ, hãy để nó chạy.
 
-**Low-stakes tasks.** Work where the worst outcome is "I need to redo this," not "I have damaged a customer relationship."
+**Nhiệm vụ ít rủi ro.** Công việc mà kết quả xấu nhất là "Tôi cần làm lại," không phải "Tôi đã làm hỏng mối quan hệ khách hàng."
 
-### Loosening Over Time
+### Nới Lỏng Theo Thời Gian
 
-Start by gating aggressively. Review everything. Learn what your agents produce. Build trust step by step.
+Bắt đầu bằng cách kiểm soát tích cực. Xem xét mọi thứ. Học những gì agent của bạn tạo ra. Xây dựng niềm tin từng bước.
 
-As confidence grows, loosen the gates. Let routine content publish without review. Let customer support handle standard inquiries on its own. Keep gates on what carries real risk.
+Khi niềm tin tăng lên, nới lỏng các cổng. Để nội dung thường xuyên xuất bản mà không cần xem xét. Để dịch vụ khách hàng xử lý các yêu cầu tiêu chuẩn một mình. Giữ các cổng về những gì có rủi ro thực sự.
 
-The goal is balance. Too many gates and you bottleneck your own company. Too few and you trust AI with decisions it should not make alone.
+Mục tiêu là cân bằng. Quá nhiều cổng và bạn làm tắc nghẽn công ty của chính mình. Quá ít và bạn tin tưởng AI với các quyết định nó không nên đưa ra một mình.
 
-## Audit Trails
+## Hồ Sơ Kiểm Tra
 
-Every action in Paperclip is logged. Every tool call, every decision point, every output, every task assignment, every delegation, in an immutable record.
+Mọi hành động trong Paperclip đều được ghi lại. Mọi cuộc gọi công cụ, mọi điểm quyết định, mọi kết quả, mọi giao nhiệm vụ, mọi ủy quyền, trong một hồ sơ bất biến.
 
-This gives you something most companies with human employees never achieve: complete accountability.
+Điều này cho bạn điều mà hầu hết các công ty với nhân viên người không bao giờ đạt được: trách nhiệm hoàn chỉnh.
 
-**Decision chains.** When an agent produces output, trace backward through every step. What information did it access? What reasoning did it apply? What alternatives did it consider?
+**Chuỗi quyết định.** Khi một agent tạo ra kết quả, hãy theo dõi ngược lại qua mọi bước. Nó đã truy cập thông tin gì? Nó đã áp dụng lý luận gì? Nó đã xem xét các lựa chọn thay thế nào?
 
-**Performance patterns.** Over time, logs reveal which agents are most efficient, which produce the best work, and which need adjustment.
+**Mẫu hiệu suất.** Theo thời gian, nhật ký tiết lộ agent nào hiệu quả nhất, agent nào tạo ra công việc tốt nhất và agent nào cần điều chỉnh.
 
-**Error forensics.** When something goes wrong, and it will, you can pinpoint what happened, where, and why. No guessing.
+**Điều tra lỗi.** Khi có sự cố, và nó sẽ xảy ra, bạn có thể xác định chính xác điều gì đã xảy ra, ở đâu và tại sao. Không đoán mò.
 
-**Compliance evidence.** If you operate in a regulated industry, audit logs provide the documentation trail regulators require.
+**Bằng chứng tuân thủ.** Nếu bạn hoạt động trong một ngành được quản lý, nhật ký kiểm tra cung cấp hồ sơ tài liệu mà các cơ quan quản lý yêu cầu.
 
-### How to Use Them
+### Cách Sử Dụng Chúng
 
-Do not read every entry. That defeats the purpose of automation.
+Đừng đọc mọi mục. Điều đó đánh bại mục đích của tự động hóa.
 
-**Weekly reviews.** Spend 30 minutes scanning logs for patterns: unexpected behaviors, efficiency outliers, uncaught errors.
+**Đánh giá hàng tuần.** Dành 30 phút quét nhật ký để tìm các mẫu: hành vi bất ngờ, ngoại lệ hiệu quả, lỗi chưa được phát hiện.
 
-**Exception-based monitoring.** Set alerts for specific events: budget warnings, approval gate triggers, task failures. Review only these unless you have reason to dig deeper.
+**Giám sát dựa trên ngoại lệ.** Đặt cảnh báo cho các sự kiện cụ thể: cảnh báo ngân sách, kích hoạt cổng phê duyệt, thất bại nhiệm vụ. Chỉ xem xét những điều này trừ khi bạn có lý do để tìm hiểu sâu hơn.
 
-**Monthly deep dives.** Pick one agent or one workflow and trace its complete audit trail. This keeps you connected to how your company operates and often reveals improvements.
+**Nghiên cứu sâu hàng tháng.** Chọn một agent hoặc một quy trình làm việc và theo dõi hồ sơ kiểm tra hoàn chỉnh của nó. Điều này giữ bạn kết nối với cách công ty của bạn hoạt động và thường tiết lộ các cải tiến.
 
-## Pause, Override, Terminate
+## Dừng, Ghi Đè, Chấm Dứt
 
-You always have the kill switch.
+Bạn luôn có công tắc khẩn cấp.
 
-At any point, you can:
+Bất kỳ lúc nào, bạn có thể:
 
-- **Pause an agent:** Stop it from picking up new tasks while you investigate or adjust its configuration
-- **Override a task:** Modify, redirect, or cancel work in progress
-- **Terminate an agent:** Remove it from your org chart permanently
+- **Dừng agent:** Ngừng nó nhận nhiệm vụ mới trong khi bạn điều tra hoặc điều chỉnh cấu hình của nó
+- **Ghi đè nhiệm vụ:** Sửa đổi, chuyển hướng hoặc hủy công việc đang tiến hành
+- **Chấm dứt agent:** Xóa nó khỏi sơ đồ tổ chức vĩnh viễn
 
-These are not emergency measures. They are normal management tools. You would pause a human employee's project if priorities changed. You would redirect work if the approach was wrong. You would let someone go if the role was not working.
+Đây không phải là biện pháp khẩn cấp. Chúng là các công cụ quản lý bình thường. Bạn sẽ dừng dự án của một nhân viên người nếu ưu tiên thay đổi. Bạn sẽ chuyển hướng công việc nếu cách tiếp cận sai. Bạn sẽ để ai đó ra đi nếu vai trò không hoạt động.
 
-The difference: with AI agents, these actions are instant and clean. No awkward conversation, no severance, no notice period. Decide, execute, move on.
+Sự khác biệt: với AI agent, những hành động này là tức thì và rõ ràng. Không có cuộc trò chuyện khó xử, không có trợ cấp thôi việc, không có thời gian thông báo. Quyết định, thực thi, tiếp tục.
 
-## Data Isolation Across Companies
+## Phân Lập Dữ Liệu Giữa Các Công Ty
 
-If you run multiple companies on a single Paperclip instance (one of the most powerful scaling patterns, discussed in Chapter 10), each company operates in complete data isolation.
+Nếu bạn chạy nhiều công ty trên một phiên bản Paperclip (một trong những mẫu mở rộng mạnh mẽ nhất, được thảo luận trong Chương 10), mỗi công ty hoạt động trong sự phân lập dữ liệu hoàn chỉnh.
 
-- Agents in Company A cannot access Company B's data
-- Budgets are tracked independently per company
-- Audit logs are separated
-- Org charts are distinct
+- Agent trong Công ty A không thể truy cập dữ liệu của Công ty B
+- Ngân sách được theo dõi độc lập theo từng công ty
+- Nhật ký kiểm tra được tách biệt
+- Sơ đồ tổ chức là riêng biệt
 
-This is not a convenience feature. It is a legal and ethical necessity when your companies handle different clients, industries, or sensitivity levels. The isolation is architectural, not permissions-based. It holds even if an agent behaves unexpectedly.
+Đây không phải là tính năng tiện lợi. Đây là một sự cần thiết pháp lý và đạo đức khi các công ty của bạn xử lý các khách hàng, ngành hoặc mức độ nhạy cảm khác nhau. Sự phân lập là về mặt kiến trúc, không dựa trên quyền. Nó giữ ngay cả khi agent hành xử không mong đợi.
 
-## Three Governance Patterns
+## Ba Mẫu Quản Trị
 
-### Week 1-4: Lock It Down
+### Tuần 1-4: Khóa Chặt
 
-- Gate all external communications
-- Gate all publishing
-- Review all agent output by hand
-- Set conservative budgets (50% of what you expect to need)
-- Daily audit log reviews
+- Kiểm soát tất cả liên lạc bên ngoài
+- Kiểm soát tất cả xuất bản
+- Xem xét tất cả kết quả agent bằng tay
+- Đặt ngân sách thận trọng (50% những gì bạn mong đợi cần)
+- Đánh giá nhật ký kiểm tra hàng ngày
 
-### Month 2-6: Selective Trust
+### Tháng 2-6: Tin Tưởng Có Chọn Lọc
 
-- Gate external communications and publishing for new topics or clients
-- Let established workflows run ungated
-- Review flagged items only
-- Set budgets from actual usage data
-- Weekly audit log reviews
+- Kiểm soát liên lạc bên ngoài và xuất bản cho các chủ đề hoặc khách hàng mới
+- Để các quy trình đã được thiết lập chạy không có cổng
+- Chỉ xem xét các mục được đánh dấu
+- Đặt ngân sách từ dữ liệu sử dụng thực tế
+- Đánh giá nhật ký kiểm tra hàng tuần
 
-### Month 6+: Exception-Only
+### Tháng 6+: Chỉ Ngoại Lệ
 
-- Gate only high-stakes decisions (strategy, new clients, structural changes)
-- Routine operations run autonomously
-- Exception-based reviews only
-- Budgets refined through data analysis
-- Monthly audit deep dives
+- Chỉ kiểm soát các quyết định quan trọng (chiến lược, khách hàng mới, thay đổi cơ cấu)
+- Các hoạt động thường xuyên chạy tự động
+- Chỉ đánh giá dựa trên ngoại lệ
+- Ngân sách được tinh chỉnh thông qua phân tích dữ liệu
+- Nghiên cứu sâu kiểm tra hàng tháng
 
-Move from locked down to exception-only based on evidence, not enthusiasm. Advance when your data shows agents produce quality work within their boundaries, not before.
+Chuyển từ bị khóa chặt sang chỉ ngoại lệ dựa trên bằng chứng, không phải sự nhiệt tình. Tiến lên khi dữ liệu của bạn cho thấy agent tạo ra công việc chất lượng trong phạm vi ranh giới của họ, không phải trước đó.
 
-## What This Makes Possible
+## Những Gì Điều Này Làm Có Thể
 
-Governance does not slow you down. It speeds you up.
+Quản trị không làm chậm bạn. Nó tăng tốc bạn.
 
-Without it, you second-guess every autonomous action. You check obsessively. You cannot sleep without wondering what your agents are doing.
+Không có nó, bạn nghi ngờ mọi hành động tự động. Bạn kiểm tra một cách ám ảnh. Bạn không thể ngủ mà không tự hỏi agent của bạn đang làm gì.
 
-With governance, you know the boundaries hold, the budgets cannot be exceeded, every action is logged, and approval gates will catch what needs your attention. That certainty frees you to focus on strategy, growth, and the decisions only you can make.
+Với quản trị, bạn biết các ranh giới giữ, ngân sách không thể bị vượt quá, mọi hành động được ghi lại, và các cổng phê duyệt sẽ bắt những gì cần chú ý của bạn. Sự chắc chắn đó giải phóng bạn để tập trung vào chiến lược, tăng trưởng và các quyết định chỉ bạn mới có thể đưa ra.
